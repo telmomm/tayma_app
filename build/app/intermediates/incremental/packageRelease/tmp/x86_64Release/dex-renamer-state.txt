@@ -1,0 +1,4 @@
+#Wed Apr 24 14:29:15 CEST 2024
+base.0=/Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

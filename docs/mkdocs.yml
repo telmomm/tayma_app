@@ -1,0 +1,15 @@
+site_name: Tayma App
+nav:
+  - Home: index.md
+  - Manual de Usuario: ManualUsuario.md
+  - Manual de Configuracion: ManualConfiguracion.md
+  - Licencias: Licence.md
+  - Acerca de: about.md
+
+# theme: material
+theme: readthedocs
+
+markdown_extensions:
+  - toc:
+      title: On this page
+

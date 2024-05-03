@@ -1,0 +1,37 @@
+name: tayma_app
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sensors: ^2.0.0
+  geolocator: ^7.6.2
+  http: ^0.13.3
+  hive: ^2.2.3
+  flutter_markdown: ^0.6.19
+  flutter_countdown_timer: ^4.1.0
+  flutter_launcher_icons: ^0.13.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  location_permissions: ^4.0.0
+  get: ^4.6.6
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/tayma.png
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/tayma.png"

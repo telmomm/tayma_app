@@ -1,0 +1,80 @@
+# Archivos y directorios creados por pub
+.dart_tool/
+.packages
+
+# Archivos y directorios creados por dartdoc
+doc/api/
+
+# Archivos de compilación de Flutter
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/app.flx
+**/ios/Flutter/flutter_assets/
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+
+# Archivos de compilación de Dart
+**/*.dart.js
+**/*.dart.js.map
+**/*.info.json
+**/*.dart2js_info.json
+**/*.jshints
+**/*.js_
+**/*.js.deps
+**/*.js.map
+**/*.js.tar.gz
+**/*.js_
+**/*.precompiled.js
+**/*.ddc.js
+**/*.ddc.js.map
+
+# Archivos de compilación de Android
+**/android/app/build/
+
+# Archivos de compilación de Xcode
+**/ios/.symlinks/
+**/ios/Flutter/Debug.xcconfig
+**/ios/Flutter/Release.xcconfig
+**/ios/Flutter.xcworkspace
+*.mode1v3
+*.mode2v3
+*.pbxuser
+!default.pbxuser
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+
+# Ignorar el archivo de configuración de la clave de firma para Android
+**/android/key.properties
+
+# Archivos misceláneos
+*.class
+*.log
+*.pyc
+*.swp
+*.lock
+*.DS_Store
+*.iml
+*.ipr
+*.iws
+*.bak
+*.swp
+*~
+*.tmp
+*.tmp.*
+log.txt
+npm-debug.log*
+yarn-error.log*
+pubspec.lock
+pubspec.yaml~
+#*.bat
+#*.cmd
+#*.sh
+#*.ps1
+
+# Archivos de la IDE
+.idea/
+.vscode/
