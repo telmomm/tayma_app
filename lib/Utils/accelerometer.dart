@@ -9,7 +9,7 @@ Timer? _timer;
 
 //Accelerometer values
 final double thresholdMagnitude = 12.0; //Acceleration threshold (in m/s^2)
-final int detectionTime = 50; //Detection time in ms
+final int detectionTime = 30; //Detection time in ms
 
 //Complementary filter
 double alpha = 0.95;

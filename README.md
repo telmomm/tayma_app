@@ -45,3 +45,9 @@ https://medium.com/@flutterinastudio/generar-una-apk-sencilla-android-applicatio
 
 #### STEPS
 flutter build apk --split-per-abi
+
+## LINKS
+
+### Awesome Notification Example
+
+https://github.com/Coding-Orbit/awesome_notification/blob/main/lib/screens/home_screen.dart

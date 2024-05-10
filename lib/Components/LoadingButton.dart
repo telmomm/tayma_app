@@ -51,17 +51,17 @@ class LoadingButtonState extends State<LoadingButton> with SingleTickerProviderS
         }
       },
       child: Container(
-        width: 200.0, // Ajusta el valor según sea necesario
-        height: 200.0, // Ajusta el valor según sea necesario
+        width: 250.0, // Ajusta el valor según sea necesario
+        height: 250.0, // Ajusta el valor según sea necesario
         child: Stack(
           alignment: Alignment.center,
           children: <Widget>[
             SizedBox(
-              width: 300.0, // Ajusta el valor según sea necesario
-              height: 300.0, // Ajusta el valor según sea necesario
+              width: 400.0, // Ajusta el valor según sea necesario
+              height: 400.0, // Ajusta el valor según sea necesario
               child: CircularProgressIndicator(
                 value: 1.0,
-                strokeWidth: 20.0,
+                strokeWidth: 25.0,
                 valueColor: AlwaysStoppedAnimation<Color>(Colors.grey),
               ),
             ),
@@ -70,8 +70,8 @@ class LoadingButtonState extends State<LoadingButton> with SingleTickerProviderS
               height: 300.0, // Ajusta el valor según sea necesario
               child: CircularProgressIndicator(
                 value: controller.value,
-                strokeWidth: 20.0,
-                valueColor: AlwaysStoppedAnimation<Color>(Colors.green),
+                strokeWidth: 25.0,
+                valueColor: AlwaysStoppedAnimation<Color>(Colors.blue),
               ),
             ),
             //Icon(Icons.sos, size: 150.0), 

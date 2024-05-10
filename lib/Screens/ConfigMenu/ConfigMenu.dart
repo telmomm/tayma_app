@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:package_info_plus/package_info_plus.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import 'GeneralMenu.dart';
-import 'AboutScreen.dart';
+import 'LegalAdvise.dart';
+
+final Uri _url = Uri.parse('https://telmomm.github.io/tayma_app/ManualUsuario/');
 
 class UrlScreen extends StatelessWidget {
   @override
@@ -32,13 +34,9 @@ class UserIdScreen extends StatelessWidget {
   }
 }
 
-Future<String> getAppVersion() async {
-  PackageInfo packageInfo = await PackageInfo.fromPlatform();
-  return packageInfo.version;
-}
-
 class ConfigMenu extends StatelessWidget {
-  @override
+  
+@override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
@@ -57,26 +55,18 @@ class ConfigMenu extends StatelessWidget {
           ),
          
           ListTile(
-            title: Text('Acerca de'),
+            title: Text('Aviso Legal'),
             onTap: () async {
               final result = await Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => AboutScreen()),
+                MaterialPageRoute(builder: (context) => LegalAdviseScreen()),
               );
             },
           ),
-          FutureBuilder<String>(
-            future: getAppVersion(),
-            builder: (BuildContext context, AsyncSnapshot<String> snapshot) {
-              if (snapshot.hasData) {
-                return ListTile(
-                  title: Text('Versión de la aplicación: ${snapshot.data}'),
-                );
-              } else {
-                return CircularProgressIndicator();
-              }
-            },
-          ),
+          ListTile(
+            title: Text('Manual de Usuario'),
+            onTap: () => launch('https://telmomm.github.io/tayma_app/ManualUsuario/'),
+          ),          
         ],
       ),
     );

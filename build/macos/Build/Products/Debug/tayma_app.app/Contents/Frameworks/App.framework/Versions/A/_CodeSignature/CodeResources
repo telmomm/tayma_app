@@ -10,11 +10,11 @@
 		</data>
 		<key>Resources/flutter_assets/AssetManifest.bin</key>
 		<data>
-		Z49SS3/CIpk/rIPzh7+tHvDaElI=
+		BVO1tKG6Ufh1K67qxtI49B6pfnc=
 		</data>
 		<key>Resources/flutter_assets/AssetManifest.json</key>
 		<data>
-		nJ6ZKuQzuhC/d8DdEyi/WXR3P4k=
+		7L0+bdDPb71TdqkTLKMq6ozb+jk=
 		</data>
 		<key>Resources/flutter_assets/FontManifest.json</key>
 		<data>
@@ -22,9 +22,9 @@
 		</data>
 		<key>Resources/flutter_assets/NOTICES.Z</key>
 		<data>
-		CzgJs4+wbz0DBYTQe4O0H2LJflw=
+		Pnlk43mgLCktJrMbl8h0v3gC3FU=
 		</data>
-		<key>Resources/flutter_assets/assets/tayma.png</key>
+		<key>Resources/flutter_assets/assets/images/tayma.png</key>
 		<data>
 		9cLYLWoS9iZJO5x5c7y97vI3hdI=
 		</data>
@@ -38,7 +38,11 @@
 		</data>
 		<key>Resources/flutter_assets/kernel_blob.bin</key>
 		<data>
-		EMDzjIvICKKE++V+PEb2uAQoBIU=
+		PFdnd32gcjJ8ls8T+CDhRSxeMwE=
+		</data>
+		<key>Resources/flutter_assets/packages/awesome_notifications/test/assets/images/test_image.png</key>
+		<data>
+		Cz0nsBokXQp1k+nfv9LGbJtLUgw=
 		</data>
 		<key>Resources/flutter_assets/shaders/ink_sparkle.frag</key>
 		<data>
@@ -62,14 +66,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2ZiedSdbLd6j1ix/SM/yHMMDGdAx1uU2P8wrZHjcdWE=
+			7m6ApDhhzMWp2VUIVH+WN8J3wSH+nNpHeZjJR8E3UAY=
 			</data>
 		</dict>
 		<key>Resources/flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cVmPWnFCydrQKF1DIQTl7XbmoMk8xu/GR8LydJz+bkg=
+			lh/T1yh9LRkNf6OqRbEnSNw2OpFBbGtAZRu9MY3C82M=
 			</data>
 		</dict>
 		<key>Resources/flutter_assets/FontManifest.json</key>
@@ -83,10 +87,10 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BCMsVlbbGT7EkQSgiJSoKaI4/XuGQBRkxAnoqjnCpi4=
+			gmdQtYJc4zdqJg8+CIKR3H44voXBDPf+SWB4eoVZPMs=
 			</data>
 		</dict>
-		<key>Resources/flutter_assets/assets/tayma.png</key>
+		<key>Resources/flutter_assets/assets/images/tayma.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
@@ -111,7 +115,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rBA3K96k/FfvKSqfSNqvX7XCzFhso3Tfq1y8d3bf2FA=
+			mA3+Di6r2HKrQSySrw7QvSm8E31A5Mlb2A2NPU6T5W8=
+			</data>
+		</dict>
+		<key>Resources/flutter_assets/packages/awesome_notifications/test/assets/images/test_image.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			rCXGZfbCude3pdbWXa+PEfPZVI3pWvaa0eT3NwQ/T+E=
 			</data>
 		</dict>
 		<key>Resources/flutter_assets/shaders/ink_sparkle.frag</key>

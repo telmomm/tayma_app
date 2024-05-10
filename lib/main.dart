@@ -1,14 +1,19 @@
 //Libraries
+import 'dart:isolate';
+
+import 'package:awesome_notifications/awesome_notifications.dart';
 import 'package:flutter/material.dart';
 import 'dart:async';
 import 'package:geolocator/geolocator.dart';
 import 'package:get/get.dart';
+import 'package:TAYMA/Services/notification_service.dart';
 
 //Import Components
 import 'Components/LoadingButton.dart';
 import 'Components/FallingButton.dart';
 import 'Components/SettingsButton.dart';
 import 'Components/SnackBarMessage.dart';
+import 'Components/NotificationButton.dart';
 
 //Import Utils
 import 'Utils/gps.dart';
@@ -24,8 +29,11 @@ import 'Screens/ConfigMenu/ConfigMenu.dart';
 bool isFallDetected = false;
 final FallController fallController = FallController();
 
-void main() {
+void main() async {
   Get.put(FallController());
+
+  await NotificationService.initializeNotification();
+
   runApp(const MainApp());
 }
 
@@ -47,7 +55,6 @@ class _MainAppState extends State<MainApp> {
   void initState() {
     super.initState();
     fallController.listenToAccelerometerEvents();
-  
   }
 
   void onFallNotDetected() {
@@ -56,8 +63,9 @@ class _MainAppState extends State<MainApp> {
     setState(() {
       isFallDetected = false;
     });
-}
 
+  }
+  
   @override
   Widget build(BuildContext context) {
     final FallController fallController = Get.find();
@@ -80,6 +88,10 @@ class _MainAppState extends State<MainApp> {
                           return FallingButton(
                             onInit: (){
                               print("Snack Bar Caída");
+                              NotificationService.showNotification(
+                                title: "TAYMA",
+                                body: "Caída detectada",
+                              );
                               SnackBarMessage(
                                 context: context,
                                 text: "Caída detectada",
@@ -90,6 +102,10 @@ class _MainAppState extends State<MainApp> {
                               //print("Falling Button Pressed");
                               onFallNotDetected();
                               print("Confirmed Falling");
+                              NotificationService.showNotification(
+                                title: "TAYMA",
+                                body: "Enviando mensaje de alarma...",
+                              );
                               SnackBarMessage(
                                 context: context,
                                 text: "Enviando mensaje de alarma",
@@ -111,10 +127,14 @@ class _MainAppState extends State<MainApp> {
                           return LoadingButton(
                             onPressed: () async {
                               //onButtonPressed();
+                              NotificationService.showNotification(
+                                title: "TAYMA",
+                                body: "Enviando mensaje de emergencia...",
+                              );
                               print("SOS Button Pressed");
                               SnackBarMessage(
                                 context: context,
-                                text: "Enviando mensaje de emergencia..",
+                                text: "Enviando mensaje de emergencia...",
                               ).show();
                               gpsPosition = await getGpsPosition();
                               setState(() {});

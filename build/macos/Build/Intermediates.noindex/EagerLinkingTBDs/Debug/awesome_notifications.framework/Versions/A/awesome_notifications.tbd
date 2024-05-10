@@ -1,0 +1,51 @@
+{
+  "main_library": {
+    "exported_symbols": [
+      {
+        "data": {
+          "global": [
+            "_$s21awesome_notifications26AwesomeNotificationsPluginCMn",
+            "_$s21awesome_notifications26AwesomeNotificationsPluginCfD",
+            "_$s21awesome_notifications26AwesomeNotificationsPluginCMa",
+            "_$s21awesome_notifications26AwesomeNotificationsPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctFTq",
+            "_$s21awesome_notifications26AwesomeNotificationsPluginCN",
+            "_$s21awesome_notifications26AwesomeNotificationsPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF",
+            "_$s21awesome_notifications26AwesomeNotificationsPluginCACycfc",
+            "_awesome_notificationsVersionString",
+            "_awesome_notificationsVersionNumber",
+            "_$s21awesome_notifications26AwesomeNotificationsPluginC8register4withySo07FlutterE9Registrar_p_tFZ",
+            "_$s21awesome_notifications26AwesomeNotificationsPluginCACycfC"
+          ],
+          "objc_class": [
+            "_TtC21awesome_notifications26AwesomeNotificationsPlugin",
+            "PodsDummy_awesome_notifications"
+          ]
+        }
+      }
+    ],
+    "flags": [
+      {
+        "attributes": [
+          "not_app_extension_safe"
+        ]
+      }
+    ],
+    "install_names": [
+      {
+        "name": "@rpath/awesome_notifications.framework/Versions/A/awesome_notifications"
+      }
+    ],
+    "swift_abi": [
+      {
+        "abi": 7
+      }
+    ],
+    "target_info": [
+      {
+        "min_deployment": "11",
+        "target": "arm64-macos"
+      }
+    ]
+  },
+  "tapi_tbd_version": 5
+}

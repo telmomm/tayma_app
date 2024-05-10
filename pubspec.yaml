@@ -1,5 +1,5 @@
-name: tayma_app
-description: A new Flutter project.
+name: TAYMA
+description: TAYMA SOS Application
 publish_to: 'none'
 version: 0.1.0
 
@@ -16,6 +16,10 @@ dependencies:
   flutter_markdown: ^0.6.19
   flutter_countdown_timer: ^4.1.0
   flutter_launcher_icons: ^0.13.1
+  flutter_local_notifications: ^17.1.2
+  awesome_notifications: ^0.9.3+1
+  flutter_image: ^4.1.11
+  url_launcher: ^6.2.4
 
 
 dev_dependencies:
