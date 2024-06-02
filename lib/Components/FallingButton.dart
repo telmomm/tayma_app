@@ -32,6 +32,12 @@ class FallingButtonState extends State<FallingButton> with SingleTickerProviderS
       setState(() {});
     });
 
+    @override
+    void dispose() {
+      controller.dispose();
+      super.dispose();
+    }
+
     WidgetsBinding.instance.addPostFrameCallback((_) {
       widget.onInit();
     });
@@ -88,17 +94,11 @@ class FallingButtonState extends State<FallingButton> with SingleTickerProviderS
           child: Stack(
             alignment: Alignment.center,
             children: <Widget>[
-              ColorFiltered(
-                colorFilter: ColorFilter.mode(
-                  Colors.grey.withOpacity(0.2),
-                  BlendMode.srcOver,
-                ),
-                child: Image(
-                  image: AssetImage('assets/images/tayma.png'),
+                Image(
+                  image: AssetImage('assets/images/tayma_grey.png'),
                   width: 200.0, // Ajusta el valor según sea necesario
                   height: 200.0, // Ajusta el valor según sea necesario
                 ),
-              ),
               SizedBox(
                 width: 400.0, // Ajusta el valor según sea necesario
                 height: 400.0, // Ajusta el valor según sea necesario
@@ -123,6 +123,7 @@ class FallingButtonState extends State<FallingButton> with SingleTickerProviderS
                 style: Theme.of(context).textTheme.headline4!.copyWith(
                   fontSize: 60, // Ajusta el tamaño del texto a tu gusto
                   fontWeight: FontWeight.bold, // Hace que el texto sea en negrita
+                  color: Color.fromARGB(255, 36, 36, 36), // Ajusta el color del texto según sea necesario
                 ),
               ),
             ],

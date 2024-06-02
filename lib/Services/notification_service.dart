@@ -29,6 +29,7 @@ class NotificationService {
       debug: true,
     );
 
+
     await AwesomeNotifications().isNotificationAllowed().then(
       (isAllowed) async {
         if (!isAllowed) {
@@ -44,7 +45,7 @@ class NotificationService {
       onDismissActionReceivedMethod: onDismissActionReceivedMethod,
     );
   }
-
+ 
   /// Use this method to detect when a new notification or a schedule is created
   static Future<void> onNotificationCreatedMethod(
       ReceivedNotification receivedNotification) async {
@@ -55,6 +56,7 @@ class NotificationService {
   static Future<void> onNotificationDisplayedMethod(
       ReceivedNotification receivedNotification) async {
     debugPrint('onNotificationDisplayedMethod');
+    
   }
 
   /// Use this method to detect if the user dismissed a notification
@@ -102,6 +104,8 @@ class NotificationService {
         summary: summary,
         category: category,
         bigPicture: bigPicture,
+        customSound: ""
+      
       ),
       actionButtons: actionButtons,
       schedule: scheduled

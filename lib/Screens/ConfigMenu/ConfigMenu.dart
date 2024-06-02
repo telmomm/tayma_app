@@ -53,7 +53,7 @@ class ConfigMenu extends StatelessWidget {
               );
             },
           ),
-         
+          
           ListTile(
             title: Text('Aviso Legal'),
             onTap: () async {
@@ -66,7 +66,10 @@ class ConfigMenu extends StatelessWidget {
           ListTile(
             title: Text('Manual de Usuario'),
             onTap: () => launch('https://telmomm.github.io/tayma_app/ManualUsuario/'),
-          ),          
+          ),  
+          Text(
+            "Version 0.1.2",
+          ),      
         ],
       ),
     );

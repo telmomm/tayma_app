@@ -6,3 +6,12 @@ Initial version
 Added launcher icon
 
 Added version control in Config Menu
+
+## 0.1.2 - 02/06/2024
+Change logo in countdown
+
+Add sound when alarm it's activated
+
+Readjust accelerometer values (20G-30ms)
+
+Combine all global variables in one "controller" class

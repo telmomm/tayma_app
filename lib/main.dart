@@ -18,19 +18,22 @@ import 'Components/NotificationButton.dart';
 //Import Utils
 import 'Utils/gps.dart';
 import 'Utils/accelerometer.dart';
+import 'Utils/post.dart';
+import 'Utils/controller.dart';
 
 //Import Styles
 import 'styles.dart';
 
 //Import Screens
-import 'Screens/ConfigMenu/ConfigMenu.dart';
+//import 'Screens/ConfigMenu/ConfigMenu.dart';
 
 //Internal variables
 bool isFallDetected = false;
-final FallController fallController = FallController();
+//final FallController fallController = FallController();
 
 void main() async {
-  Get.put(FallController());
+  //Get.put(FallController());
+  Get.put(GeneralMenuController()); 
 
   await NotificationService.initializeNotification();
 
@@ -46,7 +49,7 @@ class MainApp extends StatefulWidget {
 
 class _MainAppState extends State<MainApp> {
 
-  final FallController fallController = Get.put(FallController());
+  //final FallController fallController = Get.put(FallController());
   bool isButtonPressed = false;
   final GlobalKey<ScaffoldMessengerState> _scaffoldMessengerKey = GlobalKey<ScaffoldMessengerState>();
   Position gpsPosition = Position(latitude: 0.0, longitude: 0.0, timestamp: DateTime.now(), accuracy: double.infinity, altitude: 0.0, heading: 0.0, speed: 0.0, speedAccuracy: 0.0);
@@ -54,12 +57,13 @@ class _MainAppState extends State<MainApp> {
   @override
   void initState() {
     super.initState();
+    FallController fallController = FallController();
     fallController.listenToAccelerometerEvents();
   }
 
   void onFallNotDetected() {
     //final FallController fallController = Get.find();
-    fallController.isFallDetected.value = false;
+    generalMenuController.isFallDetected.value = false;
     setState(() {
       isFallDetected = false;
     });
@@ -68,7 +72,9 @@ class _MainAppState extends State<MainApp> {
   
   @override
   Widget build(BuildContext context) {
-    final FallController fallController = Get.find();
+    //final FallController fallController = Get.find();
+    final GeneralMenuController generalMenuController = Get.find();
+    FallController fallController = FallController();
     return MaterialApp(
       scaffoldMessengerKey: _scaffoldMessengerKey,
 
@@ -82,7 +88,7 @@ class _MainAppState extends State<MainApp> {
               Center(
                 child: Obx(() {
                   
-                  return fallController.isFallDetected.value
+                  return generalMenuController.isFallDetected.value && generalMenuController.isFallDetectionEnabled.value
                     ? Builder(
                         builder: (BuildContext context) {
                           return FallingButton(
@@ -92,12 +98,13 @@ class _MainAppState extends State<MainApp> {
                                 title: "TAYMA",
                                 body: "Caída detectada",
                               );
+                              
                               SnackBarMessage(
                                 context: context,
                                 text: "Caída detectada",
                               ).show();
                             },
-                            onPressed: () {
+                            onPressed: () async {
                               //onButtonPressed();
                               //print("Falling Button Pressed");
                               onFallNotDetected();
@@ -110,6 +117,12 @@ class _MainAppState extends State<MainApp> {
                                 context: context,
                                 text: "Enviando mensaje de alarma",
                               ).show();
+
+                             /*await sendPostRequest(
+                                gpsPosition,
+                                timeoutSeconds: 5
+                              );
+                              */
                             },
                             onCompleted: () async {
                               onFallNotDetected();
@@ -138,6 +151,11 @@ class _MainAppState extends State<MainApp> {
                               ).show();
                               gpsPosition = await getGpsPosition();
                               setState(() {});
+                              /*await sendPostRequest(
+                                gpsPosition,
+                                timeoutSeconds: 5
+                              );
+                              */
                             },
                           );
                         },

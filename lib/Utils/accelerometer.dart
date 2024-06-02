@@ -3,12 +3,13 @@ import 'package:sensors/sensors.dart';
 import 'dart:math'; 
 import 'dart:async';
 import 'package:get/get.dart';
+import '../Utils/controller.dart';
 
 //Timer objects
 Timer? _timer;
 
 //Accelerometer values
-final double thresholdMagnitude = 12.0; //Acceleration threshold (in m/s^2)
+final double thresholdMagnitude = 20.0; //Acceleration threshold (in m/s^2)
 final int detectionTime = 30; //Detection time in ms
 
 //Complementary filter
@@ -16,9 +17,12 @@ double alpha = 0.95;
 
 //Internal vars
 double gravityX = 0.0, gravityY = 0.0, gravityZ = 0.0;
+ 
+final GeneralMenuController generalMenuController = Get.find();
 
-class FallController extends GetxController {
-  var isFallDetected = false.obs;
+class FallController {
+  //final GeneralMenuController generalMenuController = Get.find();
+  Timer? _timer;
 
   void checkMagnitude(double magnitude, double threshold, int time) {
     if (magnitude > threshold) {
@@ -27,8 +31,8 @@ class FallController extends GetxController {
           if (magnitude > threshold) {
             print("Posible caída detectada");
             
-            isFallDetected.value = true;
-            //print(isFallDetected.value);
+            generalMenuController.isFallDetected.value = true;
+            //print(generalMenuController.isFallDetected.value);
             //Position position = await getGpsPosition();
             //print("Posicion GPS: ${position.latitude}, ${position.longitude}");
           }

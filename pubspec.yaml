@@ -1,7 +1,7 @@
 name: TAYMA
 description: TAYMA SOS Application
 publish_to: 'none'
-version: 0.1.0
+version: 0.1.2
 
 environment:
   sdk: '>=3.1.0 <4.0.0'
@@ -34,6 +34,7 @@ flutter:
 
   assets:
     - assets/images/tayma.png
+    - assets/images/tayma_grey.png
 
 flutter_icons:
   android: true

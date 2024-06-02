@@ -2,10 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:hive/hive.dart';
 
-class GeneralMenuController extends GetxController {
-  RxString deviceName = ''.obs;
-  RxString serialNumber = ''.obs;
-}
+import '../../Utils/controller.dart';
 
 class GeneralMenu extends StatefulWidget {
   const GeneralMenu({Key? key}) : super(key: key);
@@ -17,7 +14,7 @@ class GeneralMenu extends StatefulWidget {
 
 class _GeneralMenu extends State<GeneralMenu> {
 
-  final GeneralMenuController generalMenuController = Get.put(GeneralMenuController());
+  final GeneralMenuController generalMenuController = Get.find();
   final TextEditingController deviceNameController = TextEditingController();
   final TextEditingController serialNumberController = TextEditingController();
 
@@ -45,7 +42,7 @@ class _GeneralMenu extends State<GeneralMenu> {
       String value = box.get(key, defaultValue: '');
     }
   
-}
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -67,6 +64,19 @@ class _GeneralMenu extends State<GeneralMenu> {
             TextField(
               controller: serialNumberController,
               // El resto de tu código...
+            ),
+            Text('Detector de caídas:'),
+            Row(
+              children: <Widget>[
+                Obx(() => Switch(
+                  value: generalMenuController.isFallDetectionEnabled.value,
+                  onChanged: (value) {
+                    //generalMenuController.isFallDetectionEnabled.value = value;
+                    generalMenuController.toggleFallDetection(value);
+                  },
+                )),
+                Obx(() => Text(generalMenuController.isFallDetectionEnabled.value ? 'Activado' : 'Desactivado')),
+               ],
             ),
           ],
         ),
