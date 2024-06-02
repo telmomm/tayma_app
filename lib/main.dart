@@ -14,6 +14,7 @@ import 'Components/FallingButton.dart';
 import 'Components/SettingsButton.dart';
 import 'Components/SnackBarMessage.dart';
 import 'Components/NotificationButton.dart';
+import 'Components/EnableSwitch.dart';
 
 //Import Utils
 import 'Utils/gps.dart';
@@ -136,30 +137,31 @@ class _MainAppState extends State<MainApp> {
                         },
                       )
                     : Builder(
-                        builder: (BuildContext context) {
-                          return LoadingButton(
-                            onPressed: () async {
-                              //onButtonPressed();
-                              NotificationService.showNotification(
-                                title: "TAYMA",
-                                body: "Enviando mensaje de emergencia...",
-                              );
-                              print("SOS Button Pressed");
-                              SnackBarMessage(
-                                context: context,
-                                text: "Enviando mensaje de emergencia...",
-                              ).show();
-                              gpsPosition = await getGpsPosition();
-                              setState(() {});
-                              /*await sendPostRequest(
-                                gpsPosition,
-                                timeoutSeconds: 5
-                              );
-                              */
-                            },
-                          );
-                        },
-                      );
+                      builder: (BuildContext context) {
+                        return Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: <Widget>[
+                            LoadingButton(
+                              onPressed: () async {
+                                //onButtonPressed();
+                                NotificationService.showNotification(
+                                  title: "TAYMA",
+                                  body: "Enviando mensaje de emergencia...",
+                                );
+                                print("SOS Button Pressed");
+                                SnackBarMessage(
+                                  context: context,
+                                  text: "Enviando mensaje de emergencia...",
+                                ).show();
+                                gpsPosition = await getGpsPosition();
+                              },
+                            ),
+                            SizedBox(height: 50.0), 
+                            EnableSwitch(), // Añade EnableSwitch justo debajo de LoadingButton
+                          ],
+                        );
+                      },
+                    );
                 }),
               ),
               Column(

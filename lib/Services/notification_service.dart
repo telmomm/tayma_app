@@ -118,4 +118,19 @@ class NotificationService {
           : null,
     );
   }
+
+  //Countdown notification
+  static Future<void> soundOnlyNotification() async {
+    await AwesomeNotifications().createNotification(
+      content: NotificationContent(
+        id: 10,
+        channelKey: 'high_importance_channel',
+        title: 'Sonido',
+        body: 'Notificación solo sonora',
+        displayOnForeground: false,
+        displayOnBackground: false,
+      ),
+    );
+    print("SONIDO");
+  }
 }

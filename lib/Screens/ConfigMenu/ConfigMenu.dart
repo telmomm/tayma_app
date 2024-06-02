@@ -68,7 +68,7 @@ class ConfigMenu extends StatelessWidget {
             onTap: () => launch('https://telmomm.github.io/tayma_app/ManualUsuario/'),
           ),  
           Text(
-            "Version 0.1.2",
+            "Version 0.1.3",
           ),      
         ],
       ),

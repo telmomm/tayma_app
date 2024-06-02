@@ -57,15 +57,6 @@ class LoadingButtonState extends State<LoadingButton> with SingleTickerProviderS
           alignment: Alignment.center,
           children: <Widget>[
             SizedBox(
-              width: 400.0, // Ajusta el valor según sea necesario
-              height: 400.0, // Ajusta el valor según sea necesario
-              child: CircularProgressIndicator(
-                value: 1.0,
-                strokeWidth: 25.0,
-                valueColor: AlwaysStoppedAnimation<Color>(Colors.grey),
-              ),
-            ),
-            SizedBox(
               width: 300.0, // Ajusta el valor según sea necesario
               height: 300.0, // Ajusta el valor según sea necesario
               child: CircularProgressIndicator(
@@ -80,6 +71,7 @@ class LoadingButtonState extends State<LoadingButton> with SingleTickerProviderS
           ],
         ),
       ),
+      
     );
   }
 }

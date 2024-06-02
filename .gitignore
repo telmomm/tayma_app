@@ -78,3 +78,5 @@ pubspec.yaml~
 # Archivos de la IDE
 .idea/
 .vscode/
+
+/build/

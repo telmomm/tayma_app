@@ -9,7 +9,7 @@ import '../Utils/controller.dart';
 Timer? _timer;
 
 //Accelerometer values
-final double thresholdMagnitude = 20.0; //Acceleration threshold (in m/s^2)
+final double thresholdMagnitude = 10; //Acceleration threshold (in m/s^2)
 final int detectionTime = 30; //Detection time in ms
 
 //Complementary filter

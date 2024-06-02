@@ -15,3 +15,13 @@ Add sound when alarm it's activated
 Readjust accelerometer values (20G-30ms)
 
 Combine all global variables in one "controller" class
+
+## 0.1.3 - 02/06/2024
+Delete Circular Progres Indicator from main page
+
+Move Falling Detection Enabling Button from Setting to the main page
+
+Legal Advice switch, false by default
+
+
+

@@ -9,7 +9,7 @@ class LegalAdviseScreen extends StatefulWidget {
 
 class _LegalAdviseScreenState extends State<LegalAdviseScreen> {
  final String url = 'https://raw.githubusercontent.com/telmomm/tayma_app/main/docs/app/AboutMe.md'; 
-  bool _isSwitched = true; 
+  bool _isSwitched = false; 
 
   Future<String> fetchMarkdown() async {
     var url = Uri.parse('https://raw.githubusercontent.com/telmomm/tayma_app/main/docs/app/AboutMe.md');

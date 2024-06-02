@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_image/flutter_image.dart';
 
+import '../Services/notification_service.dart';
+
 class FallingButton extends StatefulWidget {
   final VoidCallback onPressed;
   final VoidCallback onCompleted;
@@ -20,17 +22,26 @@ class FallingButton extends StatefulWidget {
 
 class FallingButtonState extends State<FallingButton> with SingleTickerProviderStateMixin {
   late AnimationController controller;
+  late int previousValue;
   bool isButtonPressed = false;
 
   @override
   void initState() {
     super.initState();
+
     controller = AnimationController(vsync: this, duration: Duration(seconds: widget.durationInSeconds));
+    previousValue = controller.value.toInt()*10;
     //Init the animation
     controller.forward();
     controller.addListener(() {
       setState(() {});
+      if(controller.value.toInt() *10 != previousValue){
+        NotificationService.soundOnlyNotification();
+        previousValue = controller.value.toInt()*10;
+  
+      }
     });
+    
 
     @override
     void dispose() {

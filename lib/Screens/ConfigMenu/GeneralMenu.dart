@@ -65,19 +65,7 @@ class _GeneralMenu extends State<GeneralMenu> {
               controller: serialNumberController,
               // El resto de tu código...
             ),
-            Text('Detector de caídas:'),
-            Row(
-              children: <Widget>[
-                Obx(() => Switch(
-                  value: generalMenuController.isFallDetectionEnabled.value,
-                  onChanged: (value) {
-                    //generalMenuController.isFallDetectionEnabled.value = value;
-                    generalMenuController.toggleFallDetection(value);
-                  },
-                )),
-                Obx(() => Text(generalMenuController.isFallDetectionEnabled.value ? 'Activado' : 'Desactivado')),
-               ],
-            ),
+           
           ],
         ),
       ),
