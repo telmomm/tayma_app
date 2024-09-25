@@ -1,13 +1,13 @@
 <libraries>
   <library
-      name="__local_aars__:/Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/app/intermediates/flutter/release/libs.jar:unspecified@jar"
-      jars="/Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/app/intermediates/flutter/release/libs.jar"
-      resolved="__local_aars__:/Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/app/intermediates/flutter/release/libs.jar:unspecified"/>
+      name="__local_aars__:/Users/telmomm/Desktop/tayma_app/build/app/intermediates/flutter/release/libs.jar:unspecified@jar"
+      jars="/Users/telmomm/Desktop/tayma_app/build/app/intermediates/flutter/release/libs.jar"
+      resolved="__local_aars__:/Users/telmomm/Desktop/tayma_app/build/app/intermediates/flutter/release/libs.jar:unspecified"/>
   <library
-      name="/Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android@@:geolocator_android::release"
-      jars="/Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/geolocator_android/.transforms/82f439fb817847157cca6abf05505f51/transformed/out/jars/classes.jar:/Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/geolocator_android/.transforms/82f439fb817847157cca6abf05505f51/transformed/out/jars/libs/R.jar"
+      name="/Users/telmomm/Desktop/tayma_app/android@@:geolocator_android::release"
+      jars="/Users/telmomm/Desktop/tayma_app/build/geolocator_android/.transforms/0feed1d9261d2e120c0c8f3118d44591/transformed/out/jars/classes.jar:/Users/telmomm/Desktop/tayma_app/build/geolocator_android/.transforms/0feed1d9261d2e120c0c8f3118d44591/transformed/out/jars/libs/R.jar"
       resolved="com.baseflow.geolocator:geolocator_android:unspecified"
-      folder="/Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/geolocator_android/.transforms/82f439fb817847157cca6abf05505f51/transformed/out"
+      folder="/Users/telmomm/Desktop/tayma_app/build/geolocator_android/.transforms/0feed1d9261d2e120c0c8f3118d44591/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -17,10 +17,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android@@:sensors::release"
-      jars="/Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/sensors/.transforms/20466f2649a48b78e31e20660ee0621f/transformed/out/jars/classes.jar:/Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/sensors/.transforms/20466f2649a48b78e31e20660ee0621f/transformed/out/jars/libs/R.jar"
+      name="/Users/telmomm/Desktop/tayma_app/android@@:sensors::release"
+      jars="/Users/telmomm/Desktop/tayma_app/build/sensors/.transforms/8629ff62f0de4514bbaa926d49458e80/transformed/out/jars/classes.jar:/Users/telmomm/Desktop/tayma_app/build/sensors/.transforms/8629ff62f0de4514bbaa926d49458e80/transformed/out/jars/libs/R.jar"
       resolved="io.flutter.plugins.sensors:sensors:unspecified"
-      folder="/Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/sensors/.transforms/20466f2649a48b78e31e20660ee0621f/transformed/out"
+      folder="/Users/telmomm/Desktop/tayma_app/build/sensors/.transforms/8629ff62f0de4514bbaa926d49458e80/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -30,10 +30,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android@@:awesome_notifications::release"
-      jars="/Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/awesome_notifications/.transforms/1253975be121d7aae013bc12b8c81d08/transformed/out/jars/classes.jar:/Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/awesome_notifications/.transforms/1253975be121d7aae013bc12b8c81d08/transformed/out/jars/libs/R.jar"
+      name="/Users/telmomm/Desktop/tayma_app/android@@:awesome_notifications::release"
+      jars="/Users/telmomm/Desktop/tayma_app/build/awesome_notifications/.transforms/8d92698f3201f436debdaf53797dc6f2/transformed/out/jars/classes.jar:/Users/telmomm/Desktop/tayma_app/build/awesome_notifications/.transforms/8d92698f3201f436debdaf53797dc6f2/transformed/out/jars/libs/R.jar"
       resolved="me.carda.awesome_notifications:awesome_notifications:unspecified"
-      folder="/Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/awesome_notifications/.transforms/1253975be121d7aae013bc12b8c81d08/transformed/out"
+      folder="/Users/telmomm/Desktop/tayma_app/build/awesome_notifications/.transforms/8d92698f3201f436debdaf53797dc6f2/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -43,10 +43,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android@@:location_permissions::release"
-      jars="/Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/location_permissions/.transforms/bf5ed7dcf6723128ad798696f7b897d9/transformed/out/jars/classes.jar:/Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/location_permissions/.transforms/bf5ed7dcf6723128ad798696f7b897d9/transformed/out/jars/libs/R.jar"
+      name="/Users/telmomm/Desktop/tayma_app/android@@:location_permissions::release"
+      jars="/Users/telmomm/Desktop/tayma_app/build/location_permissions/.transforms/15ce8e560e14c39079de0979b9293b88/transformed/out/jars/classes.jar:/Users/telmomm/Desktop/tayma_app/build/location_permissions/.transforms/15ce8e560e14c39079de0979b9293b88/transformed/out/jars/libs/R.jar"
       resolved="com.baseflow.location_permissions:location_permissions:unspecified"
-      folder="/Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/location_permissions/.transforms/bf5ed7dcf6723128ad798696f7b897d9/transformed/out"
+      folder="/Users/telmomm/Desktop/tayma_app/build/location_permissions/.transforms/15ce8e560e14c39079de0979b9293b88/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -56,10 +56,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android@@:flutter_local_notifications::release"
-      jars="/Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/flutter_local_notifications/.transforms/3887f90a6454768b7ba38a5904f6b994/transformed/out/jars/classes.jar:/Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/flutter_local_notifications/.transforms/3887f90a6454768b7ba38a5904f6b994/transformed/out/jars/libs/R.jar"
+      name="/Users/telmomm/Desktop/tayma_app/android@@:flutter_local_notifications::release"
+      jars="/Users/telmomm/Desktop/tayma_app/build/flutter_local_notifications/.transforms/872e3bc5259ea7d7660c6701af2083b8/transformed/out/jars/classes.jar:/Users/telmomm/Desktop/tayma_app/build/flutter_local_notifications/.transforms/872e3bc5259ea7d7660c6701af2083b8/transformed/out/jars/libs/R.jar"
       resolved="com.dexterous.flutterlocalnotifications:flutter_local_notifications:unspecified"
-      folder="/Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/flutter_local_notifications/.transforms/3887f90a6454768b7ba38a5904f6b994/transformed/out"
+      folder="/Users/telmomm/Desktop/tayma_app/build/flutter_local_notifications/.transforms/872e3bc5259ea7d7660c6701af2083b8/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -69,10 +69,49 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android@@:url_launcher_android::release"
-      jars="/Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/url_launcher_android/.transforms/e9a1ab702754182099b9ae7f9a641122/transformed/out/jars/classes.jar:/Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/url_launcher_android/.transforms/e9a1ab702754182099b9ae7f9a641122/transformed/out/jars/libs/R.jar"
+      name="/Users/telmomm/Desktop/tayma_app/android@@:flutter_bcrypt::release"
+      jars="/Users/telmomm/Desktop/tayma_app/build/flutter_bcrypt/.transforms/c9057ec38171d25399087a2cdcbf4f96/transformed/out/jars/classes.jar:/Users/telmomm/Desktop/tayma_app/build/flutter_bcrypt/.transforms/c9057ec38171d25399087a2cdcbf4f96/transformed/out/jars/libs/R.jar"
+      resolved="be.appmire.flutter_bcrypt:flutter_bcrypt:unspecified"
+      folder="/Users/telmomm/Desktop/tayma_app/build/flutter_bcrypt/.transforms/c9057ec38171d25399087a2cdcbf4f96/transformed/out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="/Users/telmomm/Desktop/tayma_app/android@@:url_launcher_android::release"
+      jars="/Users/telmomm/Desktop/tayma_app/build/url_launcher_android/.transforms/8acffffaf0170a3c6c89b08fe4c500c1/transformed/out/jars/classes.jar:/Users/telmomm/Desktop/tayma_app/build/url_launcher_android/.transforms/8acffffaf0170a3c6c89b08fe4c500c1/transformed/out/jars/libs/R.jar"
       resolved="io.flutter.plugins.urllauncher:url_launcher_android:unspecified"
-      folder="/Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/url_launcher_android/.transforms/e9a1ab702754182099b9ae7f9a641122/transformed/out"
+      folder="/Users/telmomm/Desktop/tayma_app/build/url_launcher_android/.transforms/8acffffaf0170a3c6c89b08fe4c500c1/transformed/out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="/Users/telmomm/Desktop/tayma_app/android@@:path_provider_android::release"
+      jars="/Users/telmomm/Desktop/tayma_app/build/path_provider_android/.transforms/d31ffa0475a5c9fea7e1fe0f42e9cd6c/transformed/out/jars/classes.jar:/Users/telmomm/Desktop/tayma_app/build/path_provider_android/.transforms/d31ffa0475a5c9fea7e1fe0f42e9cd6c/transformed/out/jars/libs/R.jar"
+      resolved="io.flutter.plugins.pathprovider:path_provider_android:unspecified"
+      folder="/Users/telmomm/Desktop/tayma_app/build/path_provider_android/.transforms/d31ffa0475a5c9fea7e1fe0f42e9cd6c/transformed/out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="/Users/telmomm/Desktop/tayma_app/android@@:flutter_secure_storage::release"
+      jars="/Users/telmomm/Desktop/tayma_app/build/flutter_secure_storage/.transforms/2fc1ea4187de238acbe363f66219746b/transformed/out/jars/classes.jar:/Users/telmomm/Desktop/tayma_app/build/flutter_secure_storage/.transforms/2fc1ea4187de238acbe363f66219746b/transformed/out/jars/libs/R.jar"
+      resolved="com.it_nomads.fluttersecurestorage:flutter_secure_storage:unspecified"
+      folder="/Users/telmomm/Desktop/tayma_app/build/flutter_secure_storage/.transforms/2fc1ea4187de238acbe363f66219746b/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -752,6 +791,19 @@
       jars="/Users/telmomm/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/32.1.3-android/ea090dd85ca2fa12d42d054369df888665230dd7/guava-32.1.3-android.jar"
       resolved="com.google.guava:guava:32.1.3-android"/>
   <library
+      name="androidx.security:security-crypto:1.1.0-alpha06@aar"
+      jars="/Users/telmomm/.gradle/caches/transforms-3/2dd5e7ab9230030ff78143f5215ea597/transformed/jetified-security-crypto-1.1.0-alpha06/jars/classes.jar"
+      resolved="androidx.security:security-crypto:1.1.0-alpha06"
+      folder="/Users/telmomm/.gradle/caches/transforms-3/2dd5e7ab9230030ff78143f5215ea597/transformed/jetified-security-crypto-1.1.0-alpha06"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
       name="androidx.profileinstaller:profileinstaller:1.3.0@aar"
       jars="/Users/telmomm/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/jars/classes.jar"
       resolved="androidx.profileinstaller:profileinstaller:1.3.0"
@@ -890,9 +942,17 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
+      name="com.google.crypto.tink:tink-android:1.8.0@jar"
+      jars="/Users/telmomm/.gradle/caches/modules-2/files-2.1/com.google.crypto.tink/tink-android/1.8.0/bda82b49568d444a3b54773ca5aa487816473295/tink-android-1.8.0.jar"
+      resolved="com.google.crypto.tink:tink-android:1.8.0"/>
+  <library
       name="com.google.code.gson:gson:2.10.1@jar"
       jars="/Users/telmomm/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.10.1/b3add478d4382b78ea20b1671390a858002feb6c/gson-2.10.1.jar"
       resolved="com.google.code.gson:gson:2.10.1"/>
+  <library
+      name="at.favre.lib:bcrypt:0.9.0@jar"
+      jars="/Users/telmomm/.gradle/caches/modules-2/files-2.1/at.favre.lib/bcrypt/0.9.0/50cca88b852b579c3ce3381688a92c718ffede1b/bcrypt-0.9.0.jar"
+      resolved="at.favre.lib:bcrypt:0.9.0"/>
   <library
       name="me.leolin:ShortcutBadger:1.1.22@aar"
       jars="/Users/telmomm/.gradle/caches/transforms-3/b0389fa7cbcb973eb70356eb385c55ee/transformed/jetified-ShortcutBadger-1.1.22/jars/classes.jar"
@@ -926,6 +986,10 @@
       name="com.google.errorprone:error_prone_annotations:2.21.1@jar"
       jars="/Users/telmomm/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.21.1/6d9b10773b5237df178a7b3c1b4208df7d0e7f94/error_prone_annotations-2.21.1.jar"
       resolved="com.google.errorprone:error_prone_annotations:2.21.1"/>
+  <library
+      name="at.favre.lib:bytes:1.3.0@jar"
+      jars="/Users/telmomm/.gradle/caches/modules-2/files-2.1/at.favre.lib/bytes/1.3.0/49be3deb54a48744bbab869bc9b636c81d255d30/bytes-1.3.0.jar"
+      resolved="at.favre.lib:bytes:1.3.0"/>
   <library
       name="org.reactivestreams:reactive-streams:1.0.0@jar"
       jars="/Users/telmomm/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.0/14b8c877d98005ba3941c9257cfe09f6ed0e0d74/reactive-streams-1.0.0.jar"

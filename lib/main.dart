@@ -35,6 +35,9 @@ bool isFallDetected = false;
 void main() async {
   //Get.put(FallController());
   Get.put(GeneralMenuController()); 
+  Get.put(UserController());
+  Get.put(ServerController());
+  Get.put(StorageController());
 
   await NotificationService.initializeNotification();
 
@@ -119,11 +122,11 @@ class _MainAppState extends State<MainApp> {
                                 text: "Enviando mensaje de alarma",
                               ).show();
 
-                             /*await sendPostRequest(
-                                gpsPosition,
-                                timeoutSeconds: 5
-                              );
-                              */
+                              await postNewEvent(
+                                    gpsPosition,
+                                    Get.find<UserController>(),
+                                    'Mobile Falling Detected'
+                                  );
                             },
                             onCompleted: () async {
                               onFallNotDetected();
@@ -154,6 +157,13 @@ class _MainAppState extends State<MainApp> {
                                   text: "Enviando mensaje de emergencia...",
                                 ).show();
                                 gpsPosition = await getGpsPosition();
+
+                                await postNewEvent(
+                                  gpsPosition,
+                                  Get.find<UserController>(),
+                                  'Mobile App Button'
+                                );
+
                               },
                             ),
                             SizedBox(height: 50.0), 

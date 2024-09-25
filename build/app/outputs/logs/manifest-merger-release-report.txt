@@ -1,10 +1,10 @@
 -- Merging decision tree log ---
 application
-INJECTED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml:8:5-39:19
-MERGED from [:awesome_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:14:5-50:19
-MERGED from [:awesome_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:14:5-50:19
-MERGED from [:url_launcher_android] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-14:19
-MERGED from [:url_launcher_android] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-14:19
+INJECTED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml:8:5-39:19
+MERGED from [:awesome_notifications] /Users/telmomm/Desktop/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:14:5-50:19
+MERGED from [:awesome_notifications] /Users/telmomm/Desktop/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:14:5-50:19
+MERGED from [:url_launcher_android] /Users/telmomm/Desktop/tayma_app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-14:19
+MERGED from [:url_launcher_android] /Users/telmomm/Desktop/tayma_app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-14:19
 MERGED from [me.carda:AndroidAwnCore:0.9.3] /Users/telmomm/.gradle/caches/transforms-3/fd1eebcc1c2460c3355320977a1b236e/transformed/jetified-AndroidAwnCore-0.9.3/AndroidManifest.xml:14:5-29:19
 MERGED from [me.carda:AndroidAwnCore:0.9.3] /Users/telmomm/.gradle/caches/transforms-3/fd1eebcc1c2460c3355320977a1b236e/transformed/jetified-AndroidAwnCore-0.9.3/AndroidManifest.xml:14:5-29:19
 MERGED from [com.google.android.material:material:1.11.0] /Users/telmomm/.gradle/caches/transforms-3/a27c6c352a4ad9af46fa97f38b5b95d2/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
@@ -40,23 +40,26 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/telm
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.10.1] /Users/telmomm/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
 	android:label
-		ADDED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml:9:9-30
+		ADDED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml:9:9-30
 	android:icon
-		ADDED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml:11:9-43
+		ADDED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml:11:9-43
 	android:name
-		INJECTED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml:10:9-42
+		INJECTED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml:10:9-42
 manifest
-ADDED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml:1:1-41:12
-INJECTED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml:1:1-41:12
-INJECTED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml:1:1-41:12
-INJECTED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml:1:1-41:12
-MERGED from [:geolocator_android] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
-MERGED from [:sensors] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/sensors/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
-MERGED from [:awesome_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-52:12
-MERGED from [:location_permissions] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/location_permissions/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
-MERGED from [:flutter_local_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-12:12
-MERGED from [:url_launcher_android] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-16:12
+ADDED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml:1:1-41:12
+INJECTED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml:1:1-41:12
+INJECTED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml:1:1-41:12
+INJECTED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml:1:1-41:12
+MERGED from [:geolocator_android] /Users/telmomm/Desktop/tayma_app/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:sensors] /Users/telmomm/Desktop/tayma_app/build/sensors/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:awesome_notifications] /Users/telmomm/Desktop/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-52:12
+MERGED from [:location_permissions] /Users/telmomm/Desktop/tayma_app/build/location_permissions/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_local_notifications] /Users/telmomm/Desktop/tayma_app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-12:12
+MERGED from [:flutter_bcrypt] /Users/telmomm/Desktop/tayma_app/build/flutter_bcrypt/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:url_launcher_android] /Users/telmomm/Desktop/tayma_app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-16:12
+MERGED from [:path_provider_android] /Users/telmomm/Desktop/tayma_app/build/path_provider_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_secure_storage] /Users/telmomm/Desktop/tayma_app/build/flutter_secure_storage/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-11:12
 MERGED from [me.carda:AndroidAwnCore:0.9.3] /Users/telmomm/.gradle/caches/transforms-3/fd1eebcc1c2460c3355320977a1b236e/transformed/jetified-AndroidAwnCore-0.9.3/AndroidManifest.xml:2:1-31:12
 MERGED from [com.google.android.material:material:1.11.0] /Users/telmomm/.gradle/caches/transforms-3/a27c6c352a4ad9af46fa97f38b5b95d2/transformed/material-1.11.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.room:room-runtime:2.5.0] /Users/telmomm/.gradle/caches/transforms-3/e2498991e22bb740a57c1ad90873250d/transformed/room-runtime-2.5.0/AndroidManifest.xml:17:1-31:12
@@ -99,6 +102,7 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/telmomm/.g
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/telmomm/.gradle/caches/transforms-3/d5cb841d085c8da3ed38e468f997390f/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/telmomm/.gradle/caches/transforms-3/e97fce397db1acf9b6f475dedfc7d654/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/telmomm/.gradle/caches/transforms-3/0d71402e87d63dfcdd1e8a19179a5833/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.security:security-crypto:1.1.0-alpha06] /Users/telmomm/.gradle/caches/transforms-3/2dd5e7ab9230030ff78143f5215ea597/transformed/jetified-security-crypto-1.1.0-alpha06/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/telmomm/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
 MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/telmomm/.gradle/caches/transforms-3/d2a7f03e118140f639e8945afb58cddb/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.tracing:tracing:1.0.0] /Users/telmomm/.gradle/caches/transforms-3/cda2a1ca4d3bd6aae60d8d586ec4f3ff/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
@@ -114,69 +118,75 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/telmomm/.gradle/ca
 MERGED from [androidx.print:print:1.0.0] /Users/telmomm/.gradle/caches/transforms-3/c24f99b8bdfeb14f29b2ef7a86a4db48/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/telmomm/.gradle/caches/transforms-3/937d6edc8055f6701a18eeac1a67afe6/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
 MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/b0389fa7cbcb973eb70356eb385c55ee/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:2:1-52:12
-INJECTED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml:1:1-41:12
-INJECTED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml:1:1-41:12
-INJECTED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml:1:1-41:12
+INJECTED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml:1:1-41:12
+INJECTED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml:1:1-41:12
+INJECTED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml:1:1-41:12
 	package
-		INJECTED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml:1:1-41:12
-		INJECTED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml:1:1-41:12
+		INJECTED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml:1:1-41:12
-		INJECTED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml:1:1-41:12
+		INJECTED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml:1:1-41:12
-		INJECTED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml:1:1-41:12
+		INJECTED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml:2:5-79
+ADDED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml:2:5-79
 	android:name
-		ADDED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml:2:22-76
+		ADDED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml:2:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml:3:5-81
+ADDED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml:3:5-81
 	android:name
-		ADDED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml:3:22-78
+		ADDED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml:3:22-78
 uses-permission#android.permission.INTERNET
-ADDED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml:4:5-67
+ADDED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml:4:5-67
 	android:name
-		ADDED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml:4:22-64
+		ADDED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml:4:22-64
 uses-permission#android.permission.VIBRATE
-ADDED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml:5:5-65
-MERGED from [:awesome_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:12:5-66
-MERGED from [:awesome_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:12:5-66
-MERGED from [:flutter_local_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-66
-MERGED from [:flutter_local_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-66
+ADDED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml:5:5-65
+MERGED from [:awesome_notifications] /Users/telmomm/Desktop/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:12:5-66
+MERGED from [:awesome_notifications] /Users/telmomm/Desktop/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:12:5-66
+MERGED from [:flutter_local_notifications] /Users/telmomm/Desktop/tayma_app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-66
+MERGED from [:flutter_local_notifications] /Users/telmomm/Desktop/tayma_app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-66
 	android:name
-		ADDED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml:5:22-63
+		ADDED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml:5:22-63
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml:6:5-80
-MERGED from [:awesome_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-81
-MERGED from [:awesome_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-81
+ADDED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml:6:5-80
+MERGED from [:awesome_notifications] /Users/telmomm/Desktop/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-81
+MERGED from [:awesome_notifications] /Users/telmomm/Desktop/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-81
 	android:name
-		ADDED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml:6:22-78
+		ADDED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml:6:22-78
 uses-permission#android.permission.ACCESS_NOTIFICATION_POLICY
-ADDED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml:7:5-84
+ADDED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml:7:5-84
 	android:name
-		ADDED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml:7:22-82
+		ADDED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml:7:22-82
 uses-sdk
-INJECTED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml
-INJECTED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml
-MERGED from [:geolocator_android] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:geolocator_android] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:sensors] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/sensors/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:sensors] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/sensors/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:awesome_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:awesome_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:location_permissions] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/location_permissions/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:location_permissions] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/location_permissions/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:flutter_local_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:flutter_local_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:url_launcher_android] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:url_launcher_android] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml
+MERGED from [:geolocator_android] /Users/telmomm/Desktop/tayma_app/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:geolocator_android] /Users/telmomm/Desktop/tayma_app/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:sensors] /Users/telmomm/Desktop/tayma_app/build/sensors/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:sensors] /Users/telmomm/Desktop/tayma_app/build/sensors/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:awesome_notifications] /Users/telmomm/Desktop/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:awesome_notifications] /Users/telmomm/Desktop/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:location_permissions] /Users/telmomm/Desktop/tayma_app/build/location_permissions/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:location_permissions] /Users/telmomm/Desktop/tayma_app/build/location_permissions/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_local_notifications] /Users/telmomm/Desktop/tayma_app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_local_notifications] /Users/telmomm/Desktop/tayma_app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_bcrypt] /Users/telmomm/Desktop/tayma_app/build/flutter_bcrypt/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_bcrypt] /Users/telmomm/Desktop/tayma_app/build/flutter_bcrypt/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:url_launcher_android] /Users/telmomm/Desktop/tayma_app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:url_launcher_android] /Users/telmomm/Desktop/tayma_app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] /Users/telmomm/Desktop/tayma_app/build/path_provider_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] /Users/telmomm/Desktop/tayma_app/build/path_provider_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_secure_storage] /Users/telmomm/Desktop/tayma_app/build/flutter_secure_storage/intermediates/merged_manifest/release/AndroidManifest.xml:6:5-9:53
+MERGED from [:flutter_secure_storage] /Users/telmomm/Desktop/tayma_app/build/flutter_secure_storage/intermediates/merged_manifest/release/AndroidManifest.xml:6:5-9:53
 MERGED from [me.carda:AndroidAwnCore:0.9.3] /Users/telmomm/.gradle/caches/transforms-3/fd1eebcc1c2460c3355320977a1b236e/transformed/jetified-AndroidAwnCore-0.9.3/AndroidManifest.xml:5:5-7:41
 MERGED from [me.carda:AndroidAwnCore:0.9.3] /Users/telmomm/.gradle/caches/transforms-3/fd1eebcc1c2460c3355320977a1b236e/transformed/jetified-AndroidAwnCore-0.9.3/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.material:material:1.11.0] /Users/telmomm/.gradle/caches/transforms-3/a27c6c352a4ad9af46fa97f38b5b95d2/transformed/material-1.11.0/AndroidManifest.xml:20:5-44
@@ -261,6 +271,8 @@ MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/telmomm/.gradle/
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/telmomm/.gradle/caches/transforms-3/e97fce397db1acf9b6f475dedfc7d654/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:5:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/telmomm/.gradle/caches/transforms-3/0d71402e87d63dfcdd1e8a19179a5833/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/telmomm/.gradle/caches/transforms-3/0d71402e87d63dfcdd1e8a19179a5833/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.security:security-crypto:1.1.0-alpha06] /Users/telmomm/.gradle/caches/transforms-3/2dd5e7ab9230030ff78143f5215ea597/transformed/jetified-security-crypto-1.1.0-alpha06/AndroidManifest.xml:20:5-44
+MERGED from [androidx.security:security-crypto:1.1.0-alpha06] /Users/telmomm/.gradle/caches/transforms-3/2dd5e7ab9230030ff78143f5215ea597/transformed/jetified-security-crypto-1.1.0-alpha06/AndroidManifest.xml:20:5-44
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/telmomm/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/telmomm/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
 MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/telmomm/.gradle/caches/transforms-3/d2a7f03e118140f639e8945afb58cddb/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
@@ -291,152 +303,154 @@ MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/telmomm/.
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/telmomm/.gradle/caches/transforms-3/937d6edc8055f6701a18eeac1a67afe6/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
 MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/b0389fa7cbcb973eb70356eb385c55ee/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:7:5-9:41
 MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/b0389fa7cbcb973eb70356eb385c55ee/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:7:5-9:41
-INJECTED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml
-INJECTED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [:flutter_secure_storage] /Users/telmomm/Desktop/tayma_app/build/flutter_secure_storage/intermediates/merged_manifest/release/AndroidManifest.xml:9:9-50
 	android:targetSdkVersion
-		INJECTED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml
 activity#com.example.tayma_app.MainActivity
-ADDED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml:12:9-32:20
+ADDED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml:12:9-32:20
 	android:launchMode
-		ADDED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml:15:13-43
+		ADDED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml:15:13-43
 	android:hardwareAccelerated
-		ADDED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml:18:13-47
+		ADDED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml:18:13-47
 	android:windowSoftInputMode
-		ADDED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml:19:13-55
+		ADDED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml:19:13-55
 	android:exported
-		ADDED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml:14:13-36
+		ADDED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml:14:13-36
 	android:configChanges
-		ADDED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml:17:13-163
+		ADDED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml:17:13-163
 	android:theme
-		ADDED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml:16:13-60
+		ADDED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml:16:13-60
 	android:name
-		ADDED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml:13:13-41
+		ADDED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml:13:13-41
 meta-data#io.flutter.embedding.android.NormalTheme
-ADDED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml:24:13-27:17
+ADDED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml:24:13-27:17
 	android:resource
-		ADDED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml:26:15-52
+		ADDED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml:26:15-52
 	android:name
-		ADDED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml:25:15-70
+		ADDED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml:25:15-70
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml:28:13-31:29
+ADDED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml:28:13-31:29
 action#android.intent.action.MAIN
-ADDED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml:29:17-68
+ADDED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml:29:17-68
 	android:name
-		ADDED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml:29:25-66
+		ADDED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml:29:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml:30:17-76
+ADDED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml:30:17-76
 	android:name
-		ADDED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml:30:27-74
+		ADDED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml:30:27-74
 meta-data#flutterEmbedding
-ADDED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml:35:9-37:33
+ADDED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml:35:9-37:33
 	android:value
-		ADDED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml:37:13-30
+		ADDED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml:37:13-30
 	android:name
-		ADDED from /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/android/app/src/main/AndroidManifest.xml:36:13-44
+		ADDED from /Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml:36:13-44
 uses-permission#android.permission.POST_NOTIFICATIONS
-ADDED from [:awesome_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-77
-MERGED from [:flutter_local_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-77
-MERGED from [:flutter_local_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-77
+ADDED from [:awesome_notifications] /Users/telmomm/Desktop/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-77
+MERGED from [:flutter_local_notifications] /Users/telmomm/Desktop/tayma_app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-77
+MERGED from [:flutter_local_notifications] /Users/telmomm/Desktop/tayma_app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-77
 MERGED from [me.carda:AndroidAwnCore:0.9.3] /Users/telmomm/.gradle/caches/transforms-3/fd1eebcc1c2460c3355320977a1b236e/transformed/jetified-AndroidAwnCore-0.9.3/AndroidManifest.xml:9:5-77
 MERGED from [me.carda:AndroidAwnCore:0.9.3] /Users/telmomm/.gradle/caches/transforms-3/fd1eebcc1c2460c3355320977a1b236e/transformed/jetified-AndroidAwnCore-0.9.3/AndroidManifest.xml:9:5-77
 	android:name
-		ADDED from [:awesome_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-74
+		ADDED from [:awesome_notifications] /Users/telmomm/Desktop/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-74
 uses-permission#android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS
-ADDED from [:awesome_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-89
+ADDED from [:awesome_notifications] /Users/telmomm/Desktop/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-89
 	android:name
-		ADDED from [:awesome_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-86
+		ADDED from [:awesome_notifications] /Users/telmomm/Desktop/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-86
 receiver#me.carda.awesome_notifications.DartNotificationActionReceiver
-ADDED from [:awesome_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:15:9-17:39
+ADDED from [:awesome_notifications] /Users/telmomm/Desktop/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:15:9-17:39
 	android:exported
-		ADDED from [:awesome_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-36
+		ADDED from [:awesome_notifications] /Users/telmomm/Desktop/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-36
 	android:name
-		ADDED from [:awesome_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-89
+		ADDED from [:awesome_notifications] /Users/telmomm/Desktop/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-89
 receiver#me.carda.awesome_notifications.DartDismissedNotificationReceiver
-ADDED from [:awesome_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:18:9-20:39
+ADDED from [:awesome_notifications] /Users/telmomm/Desktop/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:18:9-20:39
 	android:exported
-		ADDED from [:awesome_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-36
+		ADDED from [:awesome_notifications] /Users/telmomm/Desktop/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-36
 	android:name
-		ADDED from [:awesome_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-92
+		ADDED from [:awesome_notifications] /Users/telmomm/Desktop/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-92
 receiver#me.carda.awesome_notifications.DartScheduledNotificationReceiver
-ADDED from [:awesome_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:21:9-23:39
+ADDED from [:awesome_notifications] /Users/telmomm/Desktop/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:21:9-23:39
 	android:exported
-		ADDED from [:awesome_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-36
+		ADDED from [:awesome_notifications] /Users/telmomm/Desktop/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-36
 	android:name
-		ADDED from [:awesome_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-92
+		ADDED from [:awesome_notifications] /Users/telmomm/Desktop/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-92
 receiver#me.carda.awesome_notifications.DartRefreshSchedulesReceiver
-ADDED from [:awesome_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:24:9-38:20
+ADDED from [:awesome_notifications] /Users/telmomm/Desktop/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:24:9-38:20
 	android:enabled
-		ADDED from [:awesome_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-35
+		ADDED from [:awesome_notifications] /Users/telmomm/Desktop/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-35
 	android:exported
-		ADDED from [:awesome_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-36
+		ADDED from [:awesome_notifications] /Users/telmomm/Desktop/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-36
 	android:name
-		ADDED from [:awesome_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:25:13-87
+		ADDED from [:awesome_notifications] /Users/telmomm/Desktop/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:25:13-87
 intent-filter#action:name:android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED+action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.LOCKED_BOOT_COMPLETED+action:name:android.intent.action.MY_PACKAGE_REPLACED+action:name:android.intent.action.QUICKBOOT_POWERON+action:name:com.htc.intent.action.QUICKBOOT_POWERON+category:name:android.intent.category.DEFAULT
-ADDED from [:awesome_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-37:29
+ADDED from [:awesome_notifications] /Users/telmomm/Desktop/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-37:29
 category#android.intent.category.DEFAULT
-ADDED from [:awesome_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:17-76
+ADDED from [:awesome_notifications] /Users/telmomm/Desktop/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:17-76
 	android:name
-		ADDED from [:awesome_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:27-73
+		ADDED from [:awesome_notifications] /Users/telmomm/Desktop/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:27-73
 action#android.intent.action.BOOT_COMPLETED
-ADDED from [:awesome_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:31:17-79
+ADDED from [:awesome_notifications] /Users/telmomm/Desktop/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:31:17-79
 	android:name
-		ADDED from [:awesome_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:31:25-76
+		ADDED from [:awesome_notifications] /Users/telmomm/Desktop/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:31:25-76
 action#android.intent.action.LOCKED_BOOT_COMPLETED
-ADDED from [:awesome_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:32:17-86
+ADDED from [:awesome_notifications] /Users/telmomm/Desktop/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:32:17-86
 	android:name
-		ADDED from [:awesome_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:32:25-83
+		ADDED from [:awesome_notifications] /Users/telmomm/Desktop/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:32:25-83
 action#android.intent.action.MY_PACKAGE_REPLACED
-ADDED from [:awesome_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:33:17-84
+ADDED from [:awesome_notifications] /Users/telmomm/Desktop/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:33:17-84
 	android:name
-		ADDED from [:awesome_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:33:25-81
+		ADDED from [:awesome_notifications] /Users/telmomm/Desktop/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:33:25-81
 action#android.intent.action.QUICKBOOT_POWERON
-ADDED from [:awesome_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:34:17-82
+ADDED from [:awesome_notifications] /Users/telmomm/Desktop/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:34:17-82
 	android:name
-		ADDED from [:awesome_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:34:25-79
+		ADDED from [:awesome_notifications] /Users/telmomm/Desktop/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:34:25-79
 action#com.htc.intent.action.QUICKBOOT_POWERON
-ADDED from [:awesome_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:35:17-82
+ADDED from [:awesome_notifications] /Users/telmomm/Desktop/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:35:17-82
 	android:name
-		ADDED from [:awesome_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:35:25-79
+		ADDED from [:awesome_notifications] /Users/telmomm/Desktop/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:35:25-79
 action#android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED
-ADDED from [:awesome_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:36:17-107
+ADDED from [:awesome_notifications] /Users/telmomm/Desktop/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:36:17-107
 	android:name
-		ADDED from [:awesome_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:36:25-104
+		ADDED from [:awesome_notifications] /Users/telmomm/Desktop/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:36:25-104
 service#me.carda.awesome_notifications.DartBackgroundService
-ADDED from [:awesome_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:40:9-43:72
+ADDED from [:awesome_notifications] /Users/telmomm/Desktop/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:40:9-43:72
 	android:exported
-		ADDED from [:awesome_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:42:13-37
+		ADDED from [:awesome_notifications] /Users/telmomm/Desktop/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:42:13-37
 	android:permission
-		ADDED from [:awesome_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:43:13-69
+		ADDED from [:awesome_notifications] /Users/telmomm/Desktop/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:43:13-69
 	android:name
-		ADDED from [:awesome_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:41:13-80
+		ADDED from [:awesome_notifications] /Users/telmomm/Desktop/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:41:13-80
 service#me.carda.awesome_notifications.core.services.ForegroundService
-ADDED from [:awesome_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:44:9-49:43
+ADDED from [:awesome_notifications] /Users/telmomm/Desktop/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:44:9-49:43
 MERGED from [me.carda:AndroidAwnCore:0.9.3] /Users/telmomm/.gradle/caches/transforms-3/fd1eebcc1c2460c3355320977a1b236e/transformed/jetified-AndroidAwnCore-0.9.3/AndroidManifest.xml:15:9-20:43
 MERGED from [me.carda:AndroidAwnCore:0.9.3] /Users/telmomm/.gradle/caches/transforms-3/fd1eebcc1c2460c3355320977a1b236e/transformed/jetified-AndroidAwnCore-0.9.3/AndroidManifest.xml:15:9-20:43
 	android:enabled
-		ADDED from [:awesome_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:46:13-35
+		ADDED from [:awesome_notifications] /Users/telmomm/Desktop/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:46:13-35
 	android:exported
-		ADDED from [:awesome_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:47:13-37
+		ADDED from [:awesome_notifications] /Users/telmomm/Desktop/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:47:13-37
 	android:stopWithTask
-		ADDED from [:awesome_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:49:13-40
+		ADDED from [:awesome_notifications] /Users/telmomm/Desktop/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:49:13-40
 	android:foregroundServiceType
-		ADDED from [:awesome_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:48:13-54
+		ADDED from [:awesome_notifications] /Users/telmomm/Desktop/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:48:13-54
 	android:name
-		ADDED from [:awesome_notifications] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:45:13-90
+		ADDED from [:awesome_notifications] /Users/telmomm/Desktop/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:45:13-90
 activity#io.flutter.plugins.urllauncher.WebViewActivity
-ADDED from [:url_launcher_android] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-13:74
+ADDED from [:url_launcher_android] /Users/telmomm/Desktop/tayma_app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-13:74
 	android:exported
-		ADDED from [:url_launcher_android] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-37
+		ADDED from [:url_launcher_android] /Users/telmomm/Desktop/tayma_app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-37
 	android:theme
-		ADDED from [:url_launcher_android] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-71
+		ADDED from [:url_launcher_android] /Users/telmomm/Desktop/tayma_app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-71
 	android:name
-		ADDED from [:url_launcher_android] /Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-74
+		ADDED from [:url_launcher_android] /Users/telmomm/Desktop/tayma_app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-74
 uses-permission#android.permission.BIND_NOTIFICATION_LISTENER_SERVICE
 ADDED from [me.carda:AndroidAwnCore:0.9.3] /Users/telmomm/.gradle/caches/transforms-3/fd1eebcc1c2460c3355320977a1b236e/transformed/jetified-AndroidAwnCore-0.9.3/AndroidManifest.xml:10:5-12:38
 	android:maxSdkVersion

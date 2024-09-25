@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.tayma_app-mergeReleaseResources-44:/values-v23/values-v23.xml",
+            "outputFile": "com.example.tayma_app-mergeReleaseResources-45:/values-v23/values-v23.xml",
             "map": [
                 {
                     "source": "/Users/telmomm/.gradle/caches/transforms-3/a27c6c352a4ad9af46fa97f38b5b95d2/transformed/material-1.11.0/res/values-v23/values-v23.xml",

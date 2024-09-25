@@ -1032,6 +1032,32 @@ library {
 }
 library {
   maven_library {
+    groupId: "at.favre.lib"
+    artifactId: "bcrypt"
+    version: "0.9.0"
+  }
+  digests {
+    sha256: "\346:\263\2112@\263\\r\036\234~\250]\177\222\033\252D\353\024\320\021\035\370\346\031\310\001\255\222\243"
+  }
+  repo_index {
+    value: 1
+  }
+}
+library {
+  maven_library {
+    groupId: "at.favre.lib"
+    artifactId: "bytes"
+    version: "1.3.0"
+  }
+  digests {
+    sha256: "\035\245T_ @ yCs\276\3458\t\vx \351vs\370\312\352~\aH\263\256\017$\360!"
+  }
+  repo_index {
+    value: 1
+  }
+}
+library {
+  maven_library {
     groupId: "androidx.browser"
     artifactId: "browser"
     version: "1.5.0"
@@ -1040,6 +1066,31 @@ library {
     sha256: "\224\362N\'+:&\237\371\245\272!\332^e&\025\334Y\254?\242\272-zZ\343\r\034M\367H"
   }
   repo_index {
+  }
+}
+library {
+  maven_library {
+    groupId: "androidx.security"
+    artifactId: "security-crypto"
+    version: "1.1.0-alpha06"
+  }
+  digests {
+    sha256: "\227a\021\027\v?\023\322\360\371E}\237\237W\223G\024<\266\\\005Be\220m3\307a\212L*"
+  }
+  repo_index {
+  }
+}
+library {
+  maven_library {
+    groupId: "com.google.crypto.tink"
+    artifactId: "tink-android"
+    version: "1.8.0"
+  }
+  digests {
+    sha256: "^\376\217\034\266\347X\024\256\006y=_\370\331\260\036o\210\357\227\354\300b\321N\274\'\002}\277x"
+  }
+  repo_index {
+    value: 1
   }
 }
 library {
@@ -1083,7 +1134,7 @@ library {
 }
 library {
   digests {
-    sha256: "\177\225\035\270\310=p7\366%\2531\243\240\302\336\001D7\301\233K\b\212\032xcl\f\275\2327"
+    sha256: "\037y\265\270qN\334\005\221\024\314*U^9Ra\204\327Z\322\a\326\372\263\n\366\\\251h\217o"
   }
 }
 library_dependencies {
@@ -1585,10 +1636,10 @@ library_dependencies {
 }
 library_dependencies {
   library_index: 67
+  library_dep_index: 22
   library_dep_index: 21
   library_dep_index: 5
   library_dep_index: 6
-  library_dep_index: 22
 }
 library_dependencies {
   library_index: 68
@@ -1688,6 +1739,10 @@ library_dependencies {
 }
 library_dependencies {
   library_index: 85
+  library_dep_index: 86
+}
+library_dependencies {
+  library_index: 87
   library_dep_index: 3
   library_dep_index: 2
   library_dep_index: 10
@@ -1695,12 +1750,23 @@ library_dependencies {
   library_dep_index: 12
   library_dep_index: 11
 }
+library_dependencies {
+  library_index: 88
+  library_dep_index: 3
+  library_dep_index: 3
+  library_dep_index: 2
+  library_dep_index: 89
+}
+library_dependencies {
+  library_index: 89
+  library_dep_index: 50
+}
 module_dependencies {
   module_name: "base"
   dependency_index: 21
-  dependency_index: 86
-  dependency_index: 87
-  dependency_index: 88
+  dependency_index: 90
+  dependency_index: 91
+  dependency_index: 92
   dependency_index: 0
   dependency_index: 46
   dependency_index: 49
@@ -1709,9 +1775,12 @@ module_dependencies {
   dependency_index: 8
   dependency_index: 80
   dependency_index: 50
+  dependency_index: 22
   dependency_index: 85
+  dependency_index: 87
   dependency_index: 67
-  dependency_index: 89
+  dependency_index: 88
+  dependency_index: 93
 }
 repositories {
   maven_repo {
@@ -1770,7 +1839,27 @@ repositories {
 }
 repositories {
   maven_repo {
+    url: "https://repo.maven.apache.org/maven2/"
+  }
+}
+repositories {
+  maven_repo {
+    url: "https://dl.google.com/dl/android/maven2/"
+  }
+}
+repositories {
+  maven_repo {
     url: "https://jcenter.bintray.com/"
+  }
+}
+repositories {
+  maven_repo {
+    url: "https://dl.google.com/dl/android/maven2/"
+  }
+}
+repositories {
+  maven_repo {
+    url: "https://repo.maven.apache.org/maven2/"
   }
 }
 repositories {

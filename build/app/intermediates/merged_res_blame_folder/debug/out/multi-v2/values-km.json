@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.tayma_app-mergeDebugResources-44:/values-km/values-km.xml",
+            "outputFile": "com.example.tayma_app-mergeDebugResources-45:/values-km/values-km.xml",
             "map": [
                 {
                     "source": "/Users/telmomm/.gradle/caches/transforms-3/5e1ab9db4bfbf3ac403646091b989b87/transformed/appcompat-1.6.1/res/values-km/values-km.xml",

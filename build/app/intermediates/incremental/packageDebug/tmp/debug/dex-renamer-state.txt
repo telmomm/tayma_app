@@ -1,10 +1,10 @@
-#Sun Jun 02 17:48:04 CEST 2024
-base.0=/Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/app/intermediates/dex/debug/mergeExtDexDebug/classes.dex
-base.1=/Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/app/intermediates/dex/debug/mergeLibDexDebug/0/classes.dex
-base.2=/Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/app/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
-base.3=/Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/app/intermediates/dex/debug/mergeProjectDexDebug/1/classes.dex
-base.4=/Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/app/intermediates/dex/debug/mergeProjectDexDebug/14/classes.dex
-base.5=/Users/telmomm/Library/CloudStorage/OneDrive-Personal/UBU/TFG/20 - DESARROLLOS/tayma_app/build/app/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
+#Wed Sep 25 19:57:40 CEST 2024
+base.0=/Users/telmomm/Desktop/tayma_app/build/app/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.1=/Users/telmomm/Desktop/tayma_app/build/app/intermediates/dex/debug/mergeLibDexDebug/0/classes.dex
+base.2=/Users/telmomm/Desktop/tayma_app/build/app/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.3=/Users/telmomm/Desktop/tayma_app/build/app/intermediates/dex/debug/mergeProjectDexDebug/1/classes.dex
+base.4=/Users/telmomm/Desktop/tayma_app/build/app/intermediates/dex/debug/mergeProjectDexDebug/14/classes.dex
+base.5=/Users/telmomm/Desktop/tayma_app/build/app/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=0/classes.dex

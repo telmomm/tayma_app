@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.tayma_app-mergeReleaseResources-44:/values-es-rUS/values-es-rUS.xml",
+            "outputFile": "com.example.tayma_app-mergeReleaseResources-45:/values-es-rUS/values-es-rUS.xml",
             "map": [
                 {
                     "source": "/Users/telmomm/.gradle/caches/transforms-3/63b6551e75d5dac90ab4486da5ee1385/transformed/jetified-play-services-basement-17.0.0/res/values-es-rUS/values.xml",

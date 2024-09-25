@@ -23,5 +23,9 @@ Move Falling Detection Enabling Button from Setting to the main page
 
 Legal Advice switch, false by default
 
+## 0.1.4 - 25/09/2024
+Add server communication (send alarms, get user info, login, get cities...)
+
+Add login menu in Settings Screen
 
 

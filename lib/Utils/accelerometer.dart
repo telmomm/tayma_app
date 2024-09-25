@@ -9,8 +9,8 @@ import '../Utils/controller.dart';
 Timer? _timer;
 
 //Accelerometer values
-final double thresholdMagnitude = 10; //Acceleration threshold (in m/s^2)
-final int detectionTime = 30; //Detection time in ms
+final double thresholdMagnitude = 30; //Acceleration threshold (in m/s^2)
+final int detectionTime = 100; //Detection time in ms
 
 //Complementary filter
 double alpha = 0.95;
@@ -30,6 +30,8 @@ class FallController {
         _timer = Timer(Duration(milliseconds: time), () {
           if (magnitude > threshold) {
             print("Posible caída detectada");
+            print("Magnitud: $magnitude");
+            print("Umbral: $threshold");
             
             generalMenuController.isFallDetected.value = true;
             //print(generalMenuController.isFallDetected.value);
