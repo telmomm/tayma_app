@@ -61,6 +61,10 @@ Future<void> loadUserData(UserController userController) async {
   userController.last_name.value = await storage.read(key: 'last_name') ?? '';
   userController.email.value = await storage.read(key: 'email') ?? '';
   userController.user_id.value = int.parse(await storage.read(key: 'user_id') ?? '0');
+  userController.phone.value = int.parse(await storage.read(key: 'phone') ?? '0');
+  userController.address.value = await storage.read(key: 'address') ?? '';
+  userController.birth_date.value = await storage.read(key: 'birth_date') ?? '';
+  userController.municipio.value = int.parse(await storage.read(key: 'municipio') ?? '0');
   // Carga más datos según sea necesario
 }
 

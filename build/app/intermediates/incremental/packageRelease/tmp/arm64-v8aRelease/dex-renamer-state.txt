@@ -1,4 +1,4 @@
-#Sun Oct 20 14:06:18 CEST 2024
+#Sun Oct 20 16:17:33 CEST 2024
 base.0=/Users/telmomm/Desktop/tayma_app/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
