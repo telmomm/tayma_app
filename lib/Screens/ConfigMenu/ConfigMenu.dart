@@ -61,7 +61,9 @@ class _ConfigMenuState extends State<ConfigMenu> {
                     child: ElevatedButton(
                       onPressed: _logout,
                       style: ElevatedButton.styleFrom(
-                        primary: Colors.red, // Color rojo
+                        backgroundColor: Colors.red,
+
+                        //primary: Colors.red, // Color rojo
                       ),
                       child: Text('Logout'),
                     ),
@@ -77,7 +79,7 @@ class _ConfigMenuState extends State<ConfigMenu> {
                     );
                   },
                   style: ElevatedButton.styleFrom(
-                    primary: Colors.blue, // Color azul
+                    backgroundColor: Colors.blue, // Color azul
                   ),
                   child: Text('Login'),
                 ),
@@ -98,7 +100,7 @@ class _ConfigMenuState extends State<ConfigMenu> {
             ),
             
             Text(
-              "Versión 0.1.4",
+              "Versión 0.1.5",
               textAlign: TextAlign.center,
             ),
         ],

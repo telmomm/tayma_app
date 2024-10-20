@@ -2,7 +2,7 @@
     name="release"
     package="com.example.tayma_app"
     minSdkVersion="21"
-    targetSdkVersion="33"
+    targetSdkVersion="34"
     shrinking="true"
     mergedManifest="/Users/telmomm/Desktop/tayma_app/build/app/intermediates/merged_manifest/release/AndroidManifest.xml"
     manifestMergeReport="/Users/telmomm/Desktop/tayma_app/build/app/outputs/logs/manifest-merger-release-report.txt"

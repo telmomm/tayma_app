@@ -1,7 +1,7 @@
 name: TAYMA
 description: TAYMA SOS Application
 publish_to: 'none'
-version: 0.1.4
+version: 0.1.5
 
 environment:
   sdk: '>=3.1.0 <4.0.0'
@@ -30,7 +30,9 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
-  location_permissions: ^4.0.0
+  #location_permissions: ^4.0.0
+  permission_handler: ^10.0.0
+
   get: ^4.6.6
 
 flutter:

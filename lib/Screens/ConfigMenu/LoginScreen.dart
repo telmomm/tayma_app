@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-//import 'package:flutter_secure_storage/flutter_secure_storage.dart';
+import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:flutter_bcrypt/flutter_bcrypt.dart';
 import 'dart:convert'; 
 import 'dart:async'; 
@@ -31,8 +31,8 @@ class _LoginScreenState extends State<LoginScreen> {
     String password = _passwordController.text;
     
     var body = json.encode({
-      'email': email,//'telmo@gmail.com',//email,
-      'password': password//'admin' //password
+      'email': email,//email,
+      'password': password//password
       });
     var response = await sendRequest(
       url: 'phone_users/login.php',
@@ -65,21 +65,27 @@ class _LoginScreenState extends State<LoginScreen> {
           switch (entry.key) {
             case 'first_name':
               userController.first_name.value = entry.value;
+              await storage.write(key: 'first_name', value: entry.value.toString());
               break;
             case 'last_name':
               userController.last_name.value = entry.value;
+              await storage.write(key: 'last_name', value: entry.value.toString());
               break;
             case 'user_id':
               userController.user_id.value = int.parse(entry.value.toString());
+              await storage.write(key: 'user_id', value: entry.value.toString());
               break;
             case 'birth_date':
               userController.birth_date.value = entry.value;
+              await storage.write(key: 'birth_date', value: entry.value.toString());
               break;
             case 'email':
               userController.email.value = entry.value;
+              await storage.write(key: 'email', value: entry.value.toString());
               break;
             case 'address':
               userController.address.value = entry.value;
+              await storage.write(key: 'address', value: entry.value.toString());
               break;
             /*case 'phone':
               userController.phone.value = entry.value;
@@ -87,6 +93,7 @@ class _LoginScreenState extends State<LoginScreen> {
             */
             case 'municipio':
               userController.municipio.value = int.parse(entry.value.toString());
+              await storage.write(key: 'municipio', value: entry.value.toString());
               break;
             default:
               await storage.write(key: entry.key, value: entry.value.toString());
@@ -136,7 +143,7 @@ class _LoginScreenState extends State<LoginScreen> {
               child: ElevatedButton(
                 onPressed: _login,
                 style: ElevatedButton.styleFrom(
-                  primary: Colors.blue, // Color azul
+                  backgroundColor: Colors.blue, // Color azul
                 ),
                 child: Text('Login'),
               ),

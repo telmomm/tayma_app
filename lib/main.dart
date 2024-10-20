@@ -7,6 +7,8 @@ import 'dart:async';
 import 'package:geolocator/geolocator.dart';
 import 'package:get/get.dart';
 import 'package:TAYMA/Services/notification_service.dart';
+import 'package:flutter_secure_storage/flutter_secure_storage.dart';
+
 
 //Import Components
 import 'Components/LoadingButton.dart';
@@ -32,6 +34,9 @@ import 'styles.dart';
 bool isFallDetected = false;
 //final FallController fallController = FallController();
 
+final storage = FlutterSecureStorage();
+
+
 void main() async {
   //Get.put(FallController());
   Get.put(GeneralMenuController()); 
@@ -40,11 +45,27 @@ void main() async {
   Get.put(StorageController());
 
   await NotificationService.initializeNotification();
+    UserController userController = Get.find<UserController>();
+
+  loadUserData(userController);
 
   runApp(const MainApp());
 }
+Future<bool> getUserLoginStatus() async {
+  String? loginOk = await storage.read(key: 'loginOk');
+  print('Login Status: ' + loginOk.toString());
+  return loginOk == 'true';
+}
+Future<void> loadUserData(UserController userController) async {
+  userController.first_name.value = await storage.read(key: 'first_name') ?? '';
+  userController.last_name.value = await storage.read(key: 'last_name') ?? '';
+  userController.email.value = await storage.read(key: 'email') ?? '';
+  userController.user_id.value = int.parse(await storage.read(key: 'user_id') ?? '0');
+  // Carga más datos según sea necesario
+}
 
 class MainApp extends StatefulWidget {
+
   const MainApp({Key? key}) : super(key: key);
 
   @override

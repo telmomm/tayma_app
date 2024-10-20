@@ -4,24 +4,7 @@
             "outputFile": "com.baseflow.geolocator.geolocator_android-merged_res-12:/values-cs/values-cs.xml",
             "map": [
                 {
-                    "source": "/Users/telmomm/.gradle/caches/transforms-3/63b6551e75d5dac90ab4486da5ee1385/transformed/jetified-play-services-basement-17.0.0/res/values-cs/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "201",
-                        "endOffsets": "448"
-                    },
-                    "to": {
-                        "startLines": "10",
-                        "startColumns": "4",
-                        "startOffsets": "1257",
-                        "endColumns": "201",
-                        "endOffsets": "1454"
-                    }
-                },
-                {
-                    "source": "/Users/telmomm/.gradle/caches/transforms-3/7e9df2ac2213a6bd3cef0f2f27870d79/transformed/core-1.6.0/res/values-cs/values-cs.xml",
+                    "source": "/Users/telmomm/.gradle/caches/transforms-3/6b4d20f39c3238b3d412ed4e1c6dd513/transformed/core-1.6.0/res/values-cs/values-cs.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -38,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "/Users/telmomm/.gradle/caches/transforms-3/e72594a5e1ad3cdd56ec026860a0aae9/transformed/jetified-play-services-base-17.0.0/res/values-cs/values.xml",
+                    "source": "/Users/telmomm/.gradle/caches/transforms-3/996eef626bae5411c4176571601afc0c/transformed/jetified-play-services-basement-17.0.0/res/values-cs/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "201",
+                        "endOffsets": "448"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "1257",
+                        "endColumns": "201",
+                        "endOffsets": "1454"
+                    }
+                },
+                {
+                    "source": "/Users/telmomm/.gradle/caches/transforms-3/cf09432203243613e206ac4be12de578/transformed/jetified-play-services-base-17.0.0/res/values-cs/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -60,24 +60,7 @@
             "outputFile": "com.baseflow.geolocator.geolocator_android-mergeReleaseResources-10:/values-cs/values-cs.xml",
             "map": [
                 {
-                    "source": "/Users/telmomm/.gradle/caches/transforms-3/63b6551e75d5dac90ab4486da5ee1385/transformed/jetified-play-services-basement-17.0.0/res/values-cs/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "201",
-                        "endOffsets": "448"
-                    },
-                    "to": {
-                        "startLines": "10",
-                        "startColumns": "4",
-                        "startOffsets": "1257",
-                        "endColumns": "201",
-                        "endOffsets": "1454"
-                    }
-                },
-                {
-                    "source": "/Users/telmomm/.gradle/caches/transforms-3/7e9df2ac2213a6bd3cef0f2f27870d79/transformed/core-1.6.0/res/values-cs/values-cs.xml",
+                    "source": "/Users/telmomm/.gradle/caches/transforms-3/6b4d20f39c3238b3d412ed4e1c6dd513/transformed/core-1.6.0/res/values-cs/values-cs.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -94,7 +77,24 @@
                     }
                 },
                 {
-                    "source": "/Users/telmomm/.gradle/caches/transforms-3/e72594a5e1ad3cdd56ec026860a0aae9/transformed/jetified-play-services-base-17.0.0/res/values-cs/values.xml",
+                    "source": "/Users/telmomm/.gradle/caches/transforms-3/996eef626bae5411c4176571601afc0c/transformed/jetified-play-services-basement-17.0.0/res/values-cs/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "201",
+                        "endOffsets": "448"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "1257",
+                        "endColumns": "201",
+                        "endOffsets": "1454"
+                    }
+                },
+                {
+                    "source": "/Users/telmomm/.gradle/caches/transforms-3/cf09432203243613e206ac4be12de578/transformed/jetified-play-services-base-17.0.0/res/values-cs/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",

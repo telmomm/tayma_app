@@ -57,7 +57,7 @@ class UserController extends GetxController {
   RxString last_name = ''.obs;
   RxString first_name = ''.obs;
   RxString birth_date = ''.obs;
-  RxString email = 'telmo@gmail.com'.obs;
+  RxString email = "".obs;
   RxString address = ''.obs;
   RxInt phone = 0.obs;
   RxInt municipio = 0.obs;

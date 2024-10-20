@@ -130,12 +130,12 @@ class FallingButtonState extends State<FallingButton> with SingleTickerProviderS
               ),
               //Icon(Icons.add_location, size: 150.0), // Ajusta el tamaño del icono según sea necesario
               Text(
-                '${controller.duration != null ? (controller.duration!.inSeconds * (1-controller.value)).round() + 1 : 0}',
-                style: Theme.of(context).textTheme.headline4!.copyWith(
+                '${controller.duration != null ? (controller.duration!.inSeconds * (1-controller.value)).round() + 1 : 0}'
+                """style: Theme.of(context).textTheme.headline4!.copyWith(
                   fontSize: 60, // Ajusta el tamaño del texto a tu gusto
                   fontWeight: FontWeight.bold, // Hace que el texto sea en negrita
                   color: Color.fromARGB(255, 36, 36, 36), // Ajusta el color del texto según sea necesario
-                ),
+                ),"""
               ),
             ],
           ),

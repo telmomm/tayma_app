@@ -86,10 +86,12 @@ Future<void> sendPostRequest(Position position, {int timeoutSeconds = 10}) async
 
 Future<void> postNewEvent(Position position, UserController user, hook_event) async {
 
+  DateTime localTime = position.timestamp?.toLocal() ?? DateTime.now().add(Duration(hours: 2));
+
   var body = json.encode({
     "user_id": user.user_id.value,
     "hook_event": hook_event,
-    "timestamp": position.timestamp?.toIso8601String() ?? '',
+    "timestamp": localTime.toIso8601String(),
     "location": {
       "latitude": position.latitude,
       "longitude": position.longitude

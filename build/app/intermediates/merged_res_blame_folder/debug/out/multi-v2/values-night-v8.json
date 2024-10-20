@@ -4,26 +4,7 @@
             "outputFile": "com.example.tayma_app-mergeDebugResources-45:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/telmomm/Desktop/tayma_app/android/app/src/main/res/values-night/styles.xml",
-                    "from": {
-                        "startLines": "3,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "172,817",
-                        "endLines": "7,16",
-                        "endColumns": "12,12",
-                        "endOffsets": "475,981"
-                    },
-                    "to": {
-                        "startLines": "2,6",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,236",
-                        "endLines": "5,8",
-                        "endColumns": "12,12",
-                        "endOffsets": "231,400"
-                    }
-                },
-                {
-                    "source": "/Users/telmomm/.gradle/caches/transforms-3/a27c6c352a4ad9af46fa97f38b5b95d2/transformed/material-1.11.0/res/values-night-v8/values-night-v8.xml",
+                    "source": "/Users/telmomm/.gradle/caches/transforms-3/97a6990196fc24a42bcc13250eea9dba/transformed/material-1.11.0/res/values-night-v8/values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -40,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/telmomm/.gradle/caches/transforms-3/5e1ab9db4bfbf3ac403646091b989b87/transformed/appcompat-1.6.1/res/values-night-v8/values-night-v8.xml",
+                    "source": "/Users/telmomm/.gradle/caches/transforms-3/eb9804ffa746704e620080574f2d2de0/transformed/appcompat-1.6.1/res/values-night-v8/values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -54,6 +35,25 @@
                         "startOffsets": "405,475,559,643,739,841,943,3798",
                         "endColumns": "69,83,83,95,101,101,93,88",
                         "endOffsets": "470,554,638,734,836,938,1032,3882"
+                    }
+                },
+                {
+                    "source": "/Users/telmomm/Desktop/tayma_app/android/app/src/main/res/values-night/styles.xml",
+                    "from": {
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "172,817",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "475,981"
+                    },
+                    "to": {
+                        "startLines": "2,6",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,236",
+                        "endLines": "5,8",
+                        "endColumns": "12,12",
+                        "endOffsets": "231,400"
                     }
                 }
             ]

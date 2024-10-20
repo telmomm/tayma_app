@@ -213,7 +213,7 @@ class _UserDataState extends State<UserData> {
               child: ElevatedButton(
                 onPressed: _saveChanges,
                 style: ElevatedButton.styleFrom(
-                  primary: Colors.blue, // Color azul
+                  backgroundColor: Colors.blue, // Color azul
                 ),
                 child: Text('Guardar cambios'),
               ),

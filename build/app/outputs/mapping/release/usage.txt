@@ -11843,36 +11843,27 @@ com.baseflow.geolocator.permission.PermissionUtils:
     public void <init>()
 com.baseflow.geolocator.utils.Utils:
     public void <init>()
-com.baseflow.location_permissions.BuildConfig
-com.baseflow.location_permissions.LocationPermissionsPlugin$PermissionLevel
-com.baseflow.location_permissions.LocationPermissionsPlugin$PermissionStatus
-com.baseflow.location_permissions.LocationPermissionsPlugin$ServiceStatus
-com.baseflow.location_permissions.LocationPermissionsPlugin:
-    private static final java.lang.String LOG_TAG
-    private static final int PERMISSION_CODE
-    private static final int PERMISSION_LEVEL_ALWAYS
-    private static final int PERMISSION_LEVEL_AUTO
-    private static final int PERMISSION_LEVEL_WHEN_IN_USE
-    private static final int PERMISSION_STATUS_DENIED
-    private static final int PERMISSION_STATUS_GRANTED
-    private static final int PERMISSION_STATUS_RESTRICTED
-    private static final int PERMISSION_STATUS_UNKNOWN
-    private static final int SERVICE_STATUS_DISABLED
-    private static final int SERVICE_STATUS_ENABLED
-    private static final int SERVICE_STATUS_NOT_APPLICABLE
-    private static final int SERVICE_STATUS_UNKNOWN
+com.baseflow.permissionhandler.BuildConfig
+com.baseflow.permissionhandler.PermissionConstants$PermissionGroup
+com.baseflow.permissionhandler.PermissionConstants$PermissionStatus
+com.baseflow.permissionhandler.PermissionConstants$ServiceStatus
+com.baseflow.permissionhandler.PermissionConstants
+com.baseflow.permissionhandler.PermissionHandlerPlugin:
     public static void registerWith(io.flutter.plugin.common.PluginRegistry$Registrar)
-com.baseflow.location_permissions.R$attr
-com.baseflow.location_permissions.R$color
-com.baseflow.location_permissions.R$dimen
-com.baseflow.location_permissions.R$drawable
-com.baseflow.location_permissions.R$id
-com.baseflow.location_permissions.R$integer
-com.baseflow.location_permissions.R$layout
-com.baseflow.location_permissions.R$string
-com.baseflow.location_permissions.R$style
-com.baseflow.location_permissions.R$styleable
-com.baseflow.location_permissions.R
+com.baseflow.permissionhandler.PermissionUtils:
+    static final java.lang.String SHARED_PREFERENCES_PERMISSION_WAS_DENIED_BEFORE_KEY
+    public void <init>()
+com.baseflow.permissionhandler.R$attr
+com.baseflow.permissionhandler.R$color
+com.baseflow.permissionhandler.R$dimen
+com.baseflow.permissionhandler.R$drawable
+com.baseflow.permissionhandler.R$id
+com.baseflow.permissionhandler.R$integer
+com.baseflow.permissionhandler.R$layout
+com.baseflow.permissionhandler.R$string
+com.baseflow.permissionhandler.R$style
+com.baseflow.permissionhandler.R$styleable
+com.baseflow.permissionhandler.R
 com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver:
     public static final java.lang.String ACTION_TAPPED
     private static final java.lang.String TAG
@@ -36909,6 +36900,8 @@ androidx.viewpager2.adapter.FragmentStateAdapter
 androidx.viewpager2.adapter.FragmentViewHolder
 com.baseflow.geolocator.location.LocationClient:
     public abstract boolean checkLocationService(android.content.Context)
+com.baseflow.permissionhandler.ServiceManager:
+    private static boolean isLocationServiceEnablePreKitKat(android.content.Context)
 com.google.android.gms.common.GooglePlayServicesUtilLight:
     private static boolean zzah
     private static boolean zzai

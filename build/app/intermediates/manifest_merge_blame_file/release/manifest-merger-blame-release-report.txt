@@ -2,12 +2,12 @@
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.example.tayma_app"
 4    android:versionCode="4001"
-5    android:versionName="0.1.3" >
+5    android:versionName="0.1.5" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
 8-->/Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml
-9        android:targetSdkVersion="33" />
+9        android:targetSdkVersion="34" />
 9-->/Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
@@ -35,81 +35,81 @@
 18-->[:awesome_notifications] /Users/telmomm/Desktop/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-89
 18-->[:awesome_notifications] /Users/telmomm/Desktop/tayma_app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-86
 19    <uses-permission
-19-->[me.carda:AndroidAwnCore:0.9.3] /Users/telmomm/.gradle/caches/transforms-3/fd1eebcc1c2460c3355320977a1b236e/transformed/jetified-AndroidAwnCore-0.9.3/AndroidManifest.xml:10:5-12:38
+19-->[me.carda:AndroidAwnCore:0.9.3] /Users/telmomm/.gradle/caches/transforms-3/d20717be1ee9c6a44000437da305eb24/transformed/jetified-AndroidAwnCore-0.9.3/AndroidManifest.xml:10:5-12:38
 20        android:name="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE"
-20-->[me.carda:AndroidAwnCore:0.9.3] /Users/telmomm/.gradle/caches/transforms-3/fd1eebcc1c2460c3355320977a1b236e/transformed/jetified-AndroidAwnCore-0.9.3/AndroidManifest.xml:11:9-77
+20-->[me.carda:AndroidAwnCore:0.9.3] /Users/telmomm/.gradle/caches/transforms-3/d20717be1ee9c6a44000437da305eb24/transformed/jetified-AndroidAwnCore-0.9.3/AndroidManifest.xml:11:9-77
 21        android:maxSdkVersion="22" />
-21-->[me.carda:AndroidAwnCore:0.9.3] /Users/telmomm/.gradle/caches/transforms-3/fd1eebcc1c2460c3355320977a1b236e/transformed/jetified-AndroidAwnCore-0.9.3/AndroidManifest.xml:12:9-35
+21-->[me.carda:AndroidAwnCore:0.9.3] /Users/telmomm/.gradle/caches/transforms-3/d20717be1ee9c6a44000437da305eb24/transformed/jetified-AndroidAwnCore-0.9.3/AndroidManifest.xml:12:9-35
 22
 23    <permission
-23-->[androidx.core:core:1.10.1] /Users/telmomm/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+23-->[androidx.core:core:1.10.1] /Users/telmomm/.gradle/caches/transforms-3/f396f1c0e7b4efbe1bdb9e3537f88914/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
 24        android:name="com.example.tayma_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-24-->[androidx.core:core:1.10.1] /Users/telmomm/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+24-->[androidx.core:core:1.10.1] /Users/telmomm/.gradle/caches/transforms-3/f396f1c0e7b4efbe1bdb9e3537f88914/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
 25        android:protectionLevel="signature" />
-25-->[androidx.core:core:1.10.1] /Users/telmomm/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+25-->[androidx.core:core:1.10.1] /Users/telmomm/.gradle/caches/transforms-3/f396f1c0e7b4efbe1bdb9e3537f88914/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
 26
 27    <uses-permission android:name="com.example.tayma_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- for android -->
-27-->[androidx.core:core:1.10.1] /Users/telmomm/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
-27-->[androidx.core:core:1.10.1] /Users/telmomm/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+27-->[androidx.core:core:1.10.1] /Users/telmomm/.gradle/caches/transforms-3/f396f1c0e7b4efbe1bdb9e3537f88914/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+27-->[androidx.core:core:1.10.1] /Users/telmomm/.gradle/caches/transforms-3/f396f1c0e7b4efbe1bdb9e3537f88914/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
 28    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
 29    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
 30    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
 31    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
 32    <!-- for Samsung -->
 33    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
-33-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/b0389fa7cbcb973eb70356eb385c55ee/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
-33-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/b0389fa7cbcb973eb70356eb385c55ee/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+33-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/d4ee453ede27005fdc33d6aad44cfebd/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+33-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/d4ee453ede27005fdc33d6aad44cfebd/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
 34    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
-34-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/b0389fa7cbcb973eb70356eb385c55ee/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
-34-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/b0389fa7cbcb973eb70356eb385c55ee/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+34-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/d4ee453ede27005fdc33d6aad44cfebd/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+34-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/d4ee453ede27005fdc33d6aad44cfebd/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
 35    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
-35-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/b0389fa7cbcb973eb70356eb385c55ee/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
-35-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/b0389fa7cbcb973eb70356eb385c55ee/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+35-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/d4ee453ede27005fdc33d6aad44cfebd/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+35-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/d4ee453ede27005fdc33d6aad44cfebd/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
 36    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
-36-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/b0389fa7cbcb973eb70356eb385c55ee/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
-36-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/b0389fa7cbcb973eb70356eb385c55ee/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+36-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/d4ee453ede27005fdc33d6aad44cfebd/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+36-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/d4ee453ede27005fdc33d6aad44cfebd/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
 37    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
-37-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/b0389fa7cbcb973eb70356eb385c55ee/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
-37-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/b0389fa7cbcb973eb70356eb385c55ee/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+37-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/d4ee453ede27005fdc33d6aad44cfebd/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+37-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/d4ee453ede27005fdc33d6aad44cfebd/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
 38    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
-38-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/b0389fa7cbcb973eb70356eb385c55ee/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
-38-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/b0389fa7cbcb973eb70356eb385c55ee/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+38-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/d4ee453ede27005fdc33d6aad44cfebd/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+38-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/d4ee453ede27005fdc33d6aad44cfebd/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
 39    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
-39-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/b0389fa7cbcb973eb70356eb385c55ee/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
-39-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/b0389fa7cbcb973eb70356eb385c55ee/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+39-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/d4ee453ede27005fdc33d6aad44cfebd/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+39-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/d4ee453ede27005fdc33d6aad44cfebd/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
 40    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
-40-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/b0389fa7cbcb973eb70356eb385c55ee/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
-40-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/b0389fa7cbcb973eb70356eb385c55ee/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+40-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/d4ee453ede27005fdc33d6aad44cfebd/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+40-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/d4ee453ede27005fdc33d6aad44cfebd/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
 41    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
-41-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/b0389fa7cbcb973eb70356eb385c55ee/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
-41-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/b0389fa7cbcb973eb70356eb385c55ee/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+41-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/d4ee453ede27005fdc33d6aad44cfebd/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+41-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/d4ee453ede27005fdc33d6aad44cfebd/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
 42    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
-42-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/b0389fa7cbcb973eb70356eb385c55ee/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
-42-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/b0389fa7cbcb973eb70356eb385c55ee/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+42-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/d4ee453ede27005fdc33d6aad44cfebd/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+42-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/d4ee453ede27005fdc33d6aad44cfebd/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
 43    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
-43-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/b0389fa7cbcb973eb70356eb385c55ee/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
-43-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/b0389fa7cbcb973eb70356eb385c55ee/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+43-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/d4ee453ede27005fdc33d6aad44cfebd/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+43-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/d4ee453ede27005fdc33d6aad44cfebd/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
 44    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
-44-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/b0389fa7cbcb973eb70356eb385c55ee/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
-44-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/b0389fa7cbcb973eb70356eb385c55ee/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+44-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/d4ee453ede27005fdc33d6aad44cfebd/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+44-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/d4ee453ede27005fdc33d6aad44cfebd/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
 45    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
-45-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/b0389fa7cbcb973eb70356eb385c55ee/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
-45-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/b0389fa7cbcb973eb70356eb385c55ee/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+45-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/d4ee453ede27005fdc33d6aad44cfebd/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+45-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/d4ee453ede27005fdc33d6aad44cfebd/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
 46    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
-46-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/b0389fa7cbcb973eb70356eb385c55ee/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
-46-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/b0389fa7cbcb973eb70356eb385c55ee/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+46-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/d4ee453ede27005fdc33d6aad44cfebd/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+46-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/d4ee453ede27005fdc33d6aad44cfebd/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
 47    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
-47-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/b0389fa7cbcb973eb70356eb385c55ee/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
-47-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/b0389fa7cbcb973eb70356eb385c55ee/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+47-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/d4ee453ede27005fdc33d6aad44cfebd/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+47-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/d4ee453ede27005fdc33d6aad44cfebd/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
 48    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
-48-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/b0389fa7cbcb973eb70356eb385c55ee/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
-48-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/b0389fa7cbcb973eb70356eb385c55ee/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
+48-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/d4ee453ede27005fdc33d6aad44cfebd/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+48-->[me.leolin:ShortcutBadger:1.1.22] /Users/telmomm/.gradle/caches/transforms-3/d4ee453ede27005fdc33d6aad44cfebd/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
 49
 50    <application
 51        android:name="android.app.Application"
 51-->/Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml:10:9-42
 52        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-52-->[androidx.core:core:1.10.1] /Users/telmomm/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+52-->[androidx.core:core:1.10.1] /Users/telmomm/.gradle/caches/transforms-3/f396f1c0e7b4efbe1bdb9e3537f88914/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
 53        android:icon="@mipmap/ic_launcher"
 53-->/Users/telmomm/Desktop/tayma_app/android/app/src/main/AndroidManifest.xml:11:9-43
 54        android:label="TAYMA" >
@@ -250,121 +250,121 @@
 127-->[:url_launcher_android] /Users/telmomm/Desktop/tayma_app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-71
 128
 129        <service
-129-->[me.carda:AndroidAwnCore:0.9.3] /Users/telmomm/.gradle/caches/transforms-3/fd1eebcc1c2460c3355320977a1b236e/transformed/jetified-AndroidAwnCore-0.9.3/AndroidManifest.xml:21:9-28:19
+129-->[me.carda:AndroidAwnCore:0.9.3] /Users/telmomm/.gradle/caches/transforms-3/d20717be1ee9c6a44000437da305eb24/transformed/jetified-AndroidAwnCore-0.9.3/AndroidManifest.xml:21:9-28:19
 130            android:name="me.carda.awesome_notifications.core.managers.StatusBarManager"
-130-->[me.carda:AndroidAwnCore:0.9.3] /Users/telmomm/.gradle/caches/transforms-3/fd1eebcc1c2460c3355320977a1b236e/transformed/jetified-AndroidAwnCore-0.9.3/AndroidManifest.xml:22:13-89
+130-->[me.carda:AndroidAwnCore:0.9.3] /Users/telmomm/.gradle/caches/transforms-3/d20717be1ee9c6a44000437da305eb24/transformed/jetified-AndroidAwnCore-0.9.3/AndroidManifest.xml:22:13-89
 131            android:exported="true"
-131-->[me.carda:AndroidAwnCore:0.9.3] /Users/telmomm/.gradle/caches/transforms-3/fd1eebcc1c2460c3355320977a1b236e/transformed/jetified-AndroidAwnCore-0.9.3/AndroidManifest.xml:23:13-36
+131-->[me.carda:AndroidAwnCore:0.9.3] /Users/telmomm/.gradle/caches/transforms-3/d20717be1ee9c6a44000437da305eb24/transformed/jetified-AndroidAwnCore-0.9.3/AndroidManifest.xml:23:13-36
 132            android:label="My Notification Listener Service" >
-132-->[me.carda:AndroidAwnCore:0.9.3] /Users/telmomm/.gradle/caches/transforms-3/fd1eebcc1c2460c3355320977a1b236e/transformed/jetified-AndroidAwnCore-0.9.3/AndroidManifest.xml:24:13-61
+132-->[me.carda:AndroidAwnCore:0.9.3] /Users/telmomm/.gradle/caches/transforms-3/d20717be1ee9c6a44000437da305eb24/transformed/jetified-AndroidAwnCore-0.9.3/AndroidManifest.xml:24:13-61
 133            <intent-filter>
-133-->[me.carda:AndroidAwnCore:0.9.3] /Users/telmomm/.gradle/caches/transforms-3/fd1eebcc1c2460c3355320977a1b236e/transformed/jetified-AndroidAwnCore-0.9.3/AndroidManifest.xml:25:13-27:29
+133-->[me.carda:AndroidAwnCore:0.9.3] /Users/telmomm/.gradle/caches/transforms-3/d20717be1ee9c6a44000437da305eb24/transformed/jetified-AndroidAwnCore-0.9.3/AndroidManifest.xml:25:13-27:29
 134                <action android:name="android.service.notification.NotificationListenerService" />
-134-->[me.carda:AndroidAwnCore:0.9.3] /Users/telmomm/.gradle/caches/transforms-3/fd1eebcc1c2460c3355320977a1b236e/transformed/jetified-AndroidAwnCore-0.9.3/AndroidManifest.xml:26:17-99
-134-->[me.carda:AndroidAwnCore:0.9.3] /Users/telmomm/.gradle/caches/transforms-3/fd1eebcc1c2460c3355320977a1b236e/transformed/jetified-AndroidAwnCore-0.9.3/AndroidManifest.xml:26:25-96
+134-->[me.carda:AndroidAwnCore:0.9.3] /Users/telmomm/.gradle/caches/transforms-3/d20717be1ee9c6a44000437da305eb24/transformed/jetified-AndroidAwnCore-0.9.3/AndroidManifest.xml:26:17-99
+134-->[me.carda:AndroidAwnCore:0.9.3] /Users/telmomm/.gradle/caches/transforms-3/d20717be1ee9c6a44000437da305eb24/transformed/jetified-AndroidAwnCore-0.9.3/AndroidManifest.xml:26:25-96
 135            </intent-filter>
 136        </service>
 137        <service
-137-->[androidx.room:room-runtime:2.5.0] /Users/telmomm/.gradle/caches/transforms-3/e2498991e22bb740a57c1ad90873250d/transformed/room-runtime-2.5.0/AndroidManifest.xml:24:9-28:63
+137-->[androidx.room:room-runtime:2.5.0] /Users/telmomm/.gradle/caches/transforms-3/63282f758ca0cee84e57d627fb6a6d8f/transformed/room-runtime-2.5.0/AndroidManifest.xml:24:9-28:63
 138            android:name="androidx.room.MultiInstanceInvalidationService"
-138-->[androidx.room:room-runtime:2.5.0] /Users/telmomm/.gradle/caches/transforms-3/e2498991e22bb740a57c1ad90873250d/transformed/room-runtime-2.5.0/AndroidManifest.xml:25:13-74
+138-->[androidx.room:room-runtime:2.5.0] /Users/telmomm/.gradle/caches/transforms-3/63282f758ca0cee84e57d627fb6a6d8f/transformed/room-runtime-2.5.0/AndroidManifest.xml:25:13-74
 139            android:directBootAware="true"
-139-->[androidx.room:room-runtime:2.5.0] /Users/telmomm/.gradle/caches/transforms-3/e2498991e22bb740a57c1ad90873250d/transformed/room-runtime-2.5.0/AndroidManifest.xml:26:13-43
+139-->[androidx.room:room-runtime:2.5.0] /Users/telmomm/.gradle/caches/transforms-3/63282f758ca0cee84e57d627fb6a6d8f/transformed/room-runtime-2.5.0/AndroidManifest.xml:26:13-43
 140            android:exported="false" />
-140-->[androidx.room:room-runtime:2.5.0] /Users/telmomm/.gradle/caches/transforms-3/e2498991e22bb740a57c1ad90873250d/transformed/room-runtime-2.5.0/AndroidManifest.xml:27:13-37
+140-->[androidx.room:room-runtime:2.5.0] /Users/telmomm/.gradle/caches/transforms-3/63282f758ca0cee84e57d627fb6a6d8f/transformed/room-runtime-2.5.0/AndroidManifest.xml:27:13-37
 141
 142        <uses-library
-142-->[androidx.window:window:1.0.0-beta04] /Users/telmomm/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+142-->[androidx.window:window:1.0.0-beta04] /Users/telmomm/.gradle/caches/transforms-3/710d8bb5eafb400ef0b189b82cdde18f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
 143            android:name="androidx.window.extensions"
-143-->[androidx.window:window:1.0.0-beta04] /Users/telmomm/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+143-->[androidx.window:window:1.0.0-beta04] /Users/telmomm/.gradle/caches/transforms-3/710d8bb5eafb400ef0b189b82cdde18f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
 144            android:required="false" />
-144-->[androidx.window:window:1.0.0-beta04] /Users/telmomm/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+144-->[androidx.window:window:1.0.0-beta04] /Users/telmomm/.gradle/caches/transforms-3/710d8bb5eafb400ef0b189b82cdde18f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
 145        <uses-library
-145-->[androidx.window:window:1.0.0-beta04] /Users/telmomm/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+145-->[androidx.window:window:1.0.0-beta04] /Users/telmomm/.gradle/caches/transforms-3/710d8bb5eafb400ef0b189b82cdde18f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
 146            android:name="androidx.window.sidecar"
-146-->[androidx.window:window:1.0.0-beta04] /Users/telmomm/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+146-->[androidx.window:window:1.0.0-beta04] /Users/telmomm/.gradle/caches/transforms-3/710d8bb5eafb400ef0b189b82cdde18f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
 147            android:required="false" />
-147-->[androidx.window:window:1.0.0-beta04] /Users/telmomm/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+147-->[androidx.window:window:1.0.0-beta04] /Users/telmomm/.gradle/caches/transforms-3/710d8bb5eafb400ef0b189b82cdde18f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
 148
 149        <activity
-149-->[com.google.android.gms:play-services-base:17.0.0] /Users/telmomm/.gradle/caches/transforms-3/e72594a5e1ad3cdd56ec026860a0aae9/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+149-->[com.google.android.gms:play-services-base:17.0.0] /Users/telmomm/.gradle/caches/transforms-3/cf09432203243613e206ac4be12de578/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
 150            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-150-->[com.google.android.gms:play-services-base:17.0.0] /Users/telmomm/.gradle/caches/transforms-3/e72594a5e1ad3cdd56ec026860a0aae9/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+150-->[com.google.android.gms:play-services-base:17.0.0] /Users/telmomm/.gradle/caches/transforms-3/cf09432203243613e206ac4be12de578/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
 151            android:exported="false"
-151-->[com.google.android.gms:play-services-base:17.0.0] /Users/telmomm/.gradle/caches/transforms-3/e72594a5e1ad3cdd56ec026860a0aae9/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+151-->[com.google.android.gms:play-services-base:17.0.0] /Users/telmomm/.gradle/caches/transforms-3/cf09432203243613e206ac4be12de578/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
 152            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-152-->[com.google.android.gms:play-services-base:17.0.0] /Users/telmomm/.gradle/caches/transforms-3/e72594a5e1ad3cdd56ec026860a0aae9/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+152-->[com.google.android.gms:play-services-base:17.0.0] /Users/telmomm/.gradle/caches/transforms-3/cf09432203243613e206ac4be12de578/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
 153
 154        <meta-data
-154-->[com.google.android.gms:play-services-basement:17.0.0] /Users/telmomm/.gradle/caches/transforms-3/63b6551e75d5dac90ab4486da5ee1385/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+154-->[com.google.android.gms:play-services-basement:17.0.0] /Users/telmomm/.gradle/caches/transforms-3/996eef626bae5411c4176571601afc0c/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
 155            android:name="com.google.android.gms.version"
-155-->[com.google.android.gms:play-services-basement:17.0.0] /Users/telmomm/.gradle/caches/transforms-3/63b6551e75d5dac90ab4486da5ee1385/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+155-->[com.google.android.gms:play-services-basement:17.0.0] /Users/telmomm/.gradle/caches/transforms-3/996eef626bae5411c4176571601afc0c/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
 156            android:value="@integer/google_play_services_version" />
-156-->[com.google.android.gms:play-services-basement:17.0.0] /Users/telmomm/.gradle/caches/transforms-3/63b6551e75d5dac90ab4486da5ee1385/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+156-->[com.google.android.gms:play-services-basement:17.0.0] /Users/telmomm/.gradle/caches/transforms-3/996eef626bae5411c4176571601afc0c/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
 157
 158        <provider
-158-->[androidx.emoji2:emoji2:1.2.0] /Users/telmomm/.gradle/caches/transforms-3/e04bc3769bedd8dd6f8ca688986b0355/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+158-->[androidx.emoji2:emoji2:1.2.0] /Users/telmomm/.gradle/caches/transforms-3/a1610f6062b109352ffcf934fcdbc34d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
 159            android:name="androidx.startup.InitializationProvider"
-159-->[androidx.emoji2:emoji2:1.2.0] /Users/telmomm/.gradle/caches/transforms-3/e04bc3769bedd8dd6f8ca688986b0355/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+159-->[androidx.emoji2:emoji2:1.2.0] /Users/telmomm/.gradle/caches/transforms-3/a1610f6062b109352ffcf934fcdbc34d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
 160            android:authorities="com.example.tayma_app.androidx-startup"
-160-->[androidx.emoji2:emoji2:1.2.0] /Users/telmomm/.gradle/caches/transforms-3/e04bc3769bedd8dd6f8ca688986b0355/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+160-->[androidx.emoji2:emoji2:1.2.0] /Users/telmomm/.gradle/caches/transforms-3/a1610f6062b109352ffcf934fcdbc34d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
 161            android:exported="false" >
-161-->[androidx.emoji2:emoji2:1.2.0] /Users/telmomm/.gradle/caches/transforms-3/e04bc3769bedd8dd6f8ca688986b0355/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+161-->[androidx.emoji2:emoji2:1.2.0] /Users/telmomm/.gradle/caches/transforms-3/a1610f6062b109352ffcf934fcdbc34d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
 162            <meta-data
-162-->[androidx.emoji2:emoji2:1.2.0] /Users/telmomm/.gradle/caches/transforms-3/e04bc3769bedd8dd6f8ca688986b0355/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+162-->[androidx.emoji2:emoji2:1.2.0] /Users/telmomm/.gradle/caches/transforms-3/a1610f6062b109352ffcf934fcdbc34d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
 163                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-163-->[androidx.emoji2:emoji2:1.2.0] /Users/telmomm/.gradle/caches/transforms-3/e04bc3769bedd8dd6f8ca688986b0355/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+163-->[androidx.emoji2:emoji2:1.2.0] /Users/telmomm/.gradle/caches/transforms-3/a1610f6062b109352ffcf934fcdbc34d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
 164                android:value="androidx.startup" />
-164-->[androidx.emoji2:emoji2:1.2.0] /Users/telmomm/.gradle/caches/transforms-3/e04bc3769bedd8dd6f8ca688986b0355/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+164-->[androidx.emoji2:emoji2:1.2.0] /Users/telmomm/.gradle/caches/transforms-3/a1610f6062b109352ffcf934fcdbc34d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
 165            <meta-data
-165-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/telmomm/.gradle/caches/transforms-3/34e3313412f6bb2343705c93422b49a8/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+165-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/telmomm/.gradle/caches/transforms-3/20d60c2a1b2df3a1d29eda61ed2f3828/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
 166                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-166-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/telmomm/.gradle/caches/transforms-3/34e3313412f6bb2343705c93422b49a8/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+166-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/telmomm/.gradle/caches/transforms-3/20d60c2a1b2df3a1d29eda61ed2f3828/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
 167                android:value="androidx.startup" />
-167-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/telmomm/.gradle/caches/transforms-3/34e3313412f6bb2343705c93422b49a8/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+167-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/telmomm/.gradle/caches/transforms-3/20d60c2a1b2df3a1d29eda61ed2f3828/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
 168            <meta-data
-168-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/telmomm/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+168-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/telmomm/.gradle/caches/transforms-3/b785124e5155667b1114c948e4478a9d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
 169                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-169-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/telmomm/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+169-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/telmomm/.gradle/caches/transforms-3/b785124e5155667b1114c948e4478a9d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
 170                android:value="androidx.startup" />
-170-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/telmomm/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+170-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/telmomm/.gradle/caches/transforms-3/b785124e5155667b1114c948e4478a9d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
 171        </provider>
 172
 173        <receiver
-173-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/telmomm/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+173-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/telmomm/.gradle/caches/transforms-3/b785124e5155667b1114c948e4478a9d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
 174            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-174-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/telmomm/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+174-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/telmomm/.gradle/caches/transforms-3/b785124e5155667b1114c948e4478a9d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
 175            android:directBootAware="false"
-175-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/telmomm/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+175-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/telmomm/.gradle/caches/transforms-3/b785124e5155667b1114c948e4478a9d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
 176            android:enabled="true"
-176-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/telmomm/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+176-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/telmomm/.gradle/caches/transforms-3/b785124e5155667b1114c948e4478a9d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
 177            android:exported="true"
-177-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/telmomm/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+177-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/telmomm/.gradle/caches/transforms-3/b785124e5155667b1114c948e4478a9d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
 178            android:permission="android.permission.DUMP" >
-178-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/telmomm/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+178-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/telmomm/.gradle/caches/transforms-3/b785124e5155667b1114c948e4478a9d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
 179            <intent-filter>
-179-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/telmomm/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+179-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/telmomm/.gradle/caches/transforms-3/b785124e5155667b1114c948e4478a9d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
 180                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-180-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/telmomm/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
-180-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/telmomm/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+180-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/telmomm/.gradle/caches/transforms-3/b785124e5155667b1114c948e4478a9d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+180-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/telmomm/.gradle/caches/transforms-3/b785124e5155667b1114c948e4478a9d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
 181            </intent-filter>
 182            <intent-filter>
-182-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/telmomm/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+182-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/telmomm/.gradle/caches/transforms-3/b785124e5155667b1114c948e4478a9d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
 183                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-183-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/telmomm/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
-183-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/telmomm/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+183-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/telmomm/.gradle/caches/transforms-3/b785124e5155667b1114c948e4478a9d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+183-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/telmomm/.gradle/caches/transforms-3/b785124e5155667b1114c948e4478a9d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
 184            </intent-filter>
 185            <intent-filter>
-185-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/telmomm/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+185-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/telmomm/.gradle/caches/transforms-3/b785124e5155667b1114c948e4478a9d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
 186                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-186-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/telmomm/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
-186-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/telmomm/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+186-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/telmomm/.gradle/caches/transforms-3/b785124e5155667b1114c948e4478a9d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+186-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/telmomm/.gradle/caches/transforms-3/b785124e5155667b1114c948e4478a9d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
 187            </intent-filter>
 188            <intent-filter>
-188-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/telmomm/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+188-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/telmomm/.gradle/caches/transforms-3/b785124e5155667b1114c948e4478a9d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
 189                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-189-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/telmomm/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
-189-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/telmomm/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+189-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/telmomm/.gradle/caches/transforms-3/b785124e5155667b1114c948e4478a9d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+189-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/telmomm/.gradle/caches/transforms-3/b785124e5155667b1114c948e4478a9d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
 190            </intent-filter>
 191        </receiver>
 192    </application>

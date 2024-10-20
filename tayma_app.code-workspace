@@ -4,5 +4,10 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"dart.flutterSdkPaths": [
+			"/Users/telmomm/Documents/flutter"
+		],
+		"dart.flutterSdkPath": "~/Documents/flutter"
+	}
 }

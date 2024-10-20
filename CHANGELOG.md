@@ -28,4 +28,9 @@ Add server communication (send alarms, get user info, login, get cities...)
 
 Add login menu in Settings Screen
 
+## 0.1.5 - 20/10/2024
+Correct the user login (mantain the user loggin until the app closes)
+
+Correct the sending date time (pending to resolve the server side)
+
 

@@ -1,9 +1,12 @@
 <dependencies>
   <compile
-      roots="__local_aars__:/Users/telmomm/Desktop/tayma_app/build/app/intermediates/flutter/release/libs.jar:unspecified@jar,/Users/telmomm/Desktop/tayma_app/android@@:geolocator_android::release,/Users/telmomm/Desktop/tayma_app/android@@:sensors::release,/Users/telmomm/Desktop/tayma_app/android@@:awesome_notifications::release,/Users/telmomm/Desktop/tayma_app/android@@:location_permissions::release,/Users/telmomm/Desktop/tayma_app/android@@:flutter_local_notifications::release,/Users/telmomm/Desktop/tayma_app/android@@:flutter_bcrypt::release,/Users/telmomm/Desktop/tayma_app/android@@:url_launcher_android::release,/Users/telmomm/Desktop/tayma_app/android@@:path_provider_android::release,/Users/telmomm/Desktop/tayma_app/android@@:flutter_secure_storage::release,io.flutter:flutter_embedding_release:1.0.0-b20183e04096094bcc37d9cde2a4b96f5cc684cf@jar,androidx.fragment:fragment:1.3.6@aar,androidx.viewpager:viewpager:1.0.0@aar,androidx.loader:loader:1.0.0@aar,androidx.activity:activity:1.8.0@aar,androidx.lifecycle:lifecycle-livedata:2.6.1@aar,androidx.lifecycle:lifecycle-viewmodel:2.6.1@aar,androidx.lifecycle:lifecycle-viewmodel:2.6.1@aar,androidx.lifecycle:lifecycle-livedata-core:2.6.1@aar,androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1@aar,androidx.core:core-ktx:1.10.1@aar,androidx.customview:customview:1.1.0@aar,androidx.core:core:1.10.1@aar,androidx.core:core:1.10.1@aar,androidx.lifecycle:lifecycle-runtime:2.6.1@aar,androidx.lifecycle:lifecycle-common-java8:2.6.1@jar,androidx.lifecycle:lifecycle-common:2.6.1@jar,androidx.window:window-java:1.0.0-beta04@aar,androidx.window:window:1.0.0-beta04@aar,org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.4@jar,org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4@jar,org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22@jar,io.flutter:armeabi_v7a_release:1.0.0-b20183e04096094bcc37d9cde2a4b96f5cc684cf@jar,io.flutter:arm64_v8a_release:1.0.0-b20183e04096094bcc37d9cde2a4b96f5cc684cf@jar,io.flutter:x86_64_release:1.0.0-b20183e04096094bcc37d9cde2a4b96f5cc684cf@jar,androidx.versionedparcelable:versionedparcelable:1.1.1@aar,androidx.collection:collection:1.1.0@jar,androidx.arch.core:core-runtime:2.2.0@aar,androidx.arch.core:core-common:2.2.0@jar,androidx.savedstate:savedstate:1.2.1@aar,androidx.annotation:annotation-jvm:1.7.1@jar,org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22@jar,androidx.annotation:annotation-experimental:1.3.0@aar,org.jetbrains.kotlin:kotlin-stdlib:1.8.22@jar,org.jetbrains.kotlin:kotlin-stdlib-common:1.8.22@jar,org.jetbrains:annotations:13.0@jar,androidx.tracing:tracing:1.0.0@aar">
+      roots="__local_aars__:/Users/telmomm/Desktop/tayma_app/build/app/intermediates/flutter/release/libs.jar:unspecified@jar,/Users/telmomm/Desktop/tayma_app/android@@:permission_handler_android::release,/Users/telmomm/Desktop/tayma_app/android@@:geolocator_android::release,/Users/telmomm/Desktop/tayma_app/android@@:sensors::release,/Users/telmomm/Desktop/tayma_app/android@@:awesome_notifications::release,/Users/telmomm/Desktop/tayma_app/android@@:flutter_local_notifications::release,/Users/telmomm/Desktop/tayma_app/android@@:flutter_bcrypt::release,/Users/telmomm/Desktop/tayma_app/android@@:url_launcher_android::release,/Users/telmomm/Desktop/tayma_app/android@@:path_provider_android::release,/Users/telmomm/Desktop/tayma_app/android@@:flutter_secure_storage::release,io.flutter:flutter_embedding_release:1.0.0-b20183e04096094bcc37d9cde2a4b96f5cc684cf@jar,androidx.fragment:fragment:1.3.6@aar,androidx.viewpager:viewpager:1.0.0@aar,androidx.loader:loader:1.0.0@aar,androidx.activity:activity:1.8.0@aar,androidx.lifecycle:lifecycle-livedata:2.6.1@aar,androidx.lifecycle:lifecycle-viewmodel:2.6.1@aar,androidx.lifecycle:lifecycle-viewmodel:2.6.1@aar,androidx.lifecycle:lifecycle-livedata-core:2.6.1@aar,androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1@aar,androidx.core:core-ktx:1.10.1@aar,androidx.customview:customview:1.1.0@aar,androidx.core:core:1.10.1@aar,androidx.core:core:1.10.1@aar,androidx.lifecycle:lifecycle-runtime:2.6.1@aar,androidx.lifecycle:lifecycle-common-java8:2.6.1@jar,androidx.lifecycle:lifecycle-common:2.6.1@jar,androidx.window:window-java:1.0.0-beta04@aar,androidx.window:window:1.0.0-beta04@aar,org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.4@jar,org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4@jar,org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22@jar,org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22@jar,io.flutter:armeabi_v7a_release:1.0.0-b20183e04096094bcc37d9cde2a4b96f5cc684cf@jar,io.flutter:arm64_v8a_release:1.0.0-b20183e04096094bcc37d9cde2a4b96f5cc684cf@jar,io.flutter:x86_64_release:1.0.0-b20183e04096094bcc37d9cde2a4b96f5cc684cf@jar,androidx.arch.core:core-runtime:2.2.0@aar,androidx.arch.core:core-common:2.2.0@jar,androidx.versionedparcelable:versionedparcelable:1.1.1@aar,androidx.collection:collection:1.1.0@jar,androidx.savedstate:savedstate:1.2.1@aar,androidx.annotation:annotation-jvm:1.7.1@jar,androidx.annotation:annotation-experimental:1.3.0@aar,org.jetbrains.kotlin:kotlin-stdlib:1.8.22@jar,org.jetbrains.kotlin:kotlin-stdlib-common:1.8.22@jar,org.jetbrains:annotations:13.0@jar,androidx.tracing:tracing:1.0.0@aar">
     <dependency
         name="__local_aars__:/Users/telmomm/Desktop/tayma_app/build/app/intermediates/flutter/release/libs.jar:unspecified@jar"
         simpleName="__local_aars__:/Users/telmomm/Desktop/tayma_app/build/app/intermediates/flutter/release/libs.jar"/>
+    <dependency
+        name="/Users/telmomm/Desktop/tayma_app/android@@:permission_handler_android::release"
+        simpleName="com.baseflow.permissionhandler:permission_handler_android"/>
     <dependency
         name="/Users/telmomm/Desktop/tayma_app/android@@:geolocator_android::release"
         simpleName="com.baseflow.geolocator:geolocator_android"/>
@@ -13,9 +16,6 @@
     <dependency
         name="/Users/telmomm/Desktop/tayma_app/android@@:awesome_notifications::release"
         simpleName="me.carda.awesome_notifications:awesome_notifications"/>
-    <dependency
-        name="/Users/telmomm/Desktop/tayma_app/android@@:location_permissions::release"
-        simpleName="com.baseflow.location_permissions:location_permissions"/>
     <dependency
         name="/Users/telmomm/Desktop/tayma_app/android@@:flutter_local_notifications::release"
         simpleName="com.dexterous.flutterlocalnotifications:flutter_local_notifications"/>
@@ -92,6 +92,9 @@
         name="org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22@jar"
         simpleName="org.jetbrains.kotlin:kotlin-stdlib-jdk8"/>
     <dependency
+        name="org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22@jar"
+        simpleName="org.jetbrains.kotlin:kotlin-stdlib-jdk7"/>
+    <dependency
         name="io.flutter:armeabi_v7a_release:1.0.0-b20183e04096094bcc37d9cde2a4b96f5cc684cf@jar"
         simpleName="io.flutter:armeabi_v7a_release"/>
     <dependency
@@ -101,26 +104,23 @@
         name="io.flutter:x86_64_release:1.0.0-b20183e04096094bcc37d9cde2a4b96f5cc684cf@jar"
         simpleName="io.flutter:x86_64_release"/>
     <dependency
-        name="androidx.versionedparcelable:versionedparcelable:1.1.1@aar"
-        simpleName="androidx.versionedparcelable:versionedparcelable"/>
-    <dependency
-        name="androidx.collection:collection:1.1.0@jar"
-        simpleName="androidx.collection:collection"/>
-    <dependency
         name="androidx.arch.core:core-runtime:2.2.0@aar"
         simpleName="androidx.arch.core:core-runtime"/>
     <dependency
         name="androidx.arch.core:core-common:2.2.0@jar"
         simpleName="androidx.arch.core:core-common"/>
     <dependency
+        name="androidx.versionedparcelable:versionedparcelable:1.1.1@aar"
+        simpleName="androidx.versionedparcelable:versionedparcelable"/>
+    <dependency
+        name="androidx.collection:collection:1.1.0@jar"
+        simpleName="androidx.collection:collection"/>
+    <dependency
         name="androidx.savedstate:savedstate:1.2.1@aar"
         simpleName="androidx.savedstate:savedstate"/>
     <dependency
         name="androidx.annotation:annotation-jvm:1.7.1@jar"
         simpleName="androidx.annotation:annotation-jvm"/>
-    <dependency
-        name="org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22@jar"
-        simpleName="org.jetbrains.kotlin:kotlin-stdlib-jdk7"/>
     <dependency
         name="androidx.annotation:annotation-experimental:1.3.0@aar"
         simpleName="androidx.annotation:annotation-experimental"/>
@@ -138,10 +138,13 @@
         simpleName="androidx.tracing:tracing"/>
   </compile>
   <package
-      roots="__local_aars__:/Users/telmomm/Desktop/tayma_app/build/app/intermediates/flutter/release/libs.jar:unspecified@jar,/Users/telmomm/Desktop/tayma_app/android@@:geolocator_android::release,/Users/telmomm/Desktop/tayma_app/android@@:sensors::release,/Users/telmomm/Desktop/tayma_app/android@@:awesome_notifications::release,/Users/telmomm/Desktop/tayma_app/android@@:location_permissions::release,/Users/telmomm/Desktop/tayma_app/android@@:flutter_local_notifications::release,/Users/telmomm/Desktop/tayma_app/android@@:flutter_bcrypt::release,/Users/telmomm/Desktop/tayma_app/android@@:url_launcher_android::release,/Users/telmomm/Desktop/tayma_app/android@@:path_provider_android::release,/Users/telmomm/Desktop/tayma_app/android@@:flutter_secure_storage::release,me.carda:AndroidAwnCore:0.9.3@aar,com.google.android.material:material:1.11.0@aar,androidx.room:room-runtime:2.5.0@aar,androidx.room:room-common:2.5.0@jar,io.flutter:flutter_embedding_release:1.0.0-b20183e04096094bcc37d9cde2a4b96f5cc684cf@jar,androidx.window:window-java:1.0.0-beta04@aar,androidx.window:window:1.0.0-beta04@aar,com.google.android.gms:play-services-location:17.0.0@aar,com.google.android.gms:play-services-base:17.0.0@aar,com.google.android.gms:play-services-places-placereport:17.0.0@aar,com.google.android.gms:play-services-tasks:17.0.0@aar,com.google.android.gms:play-services-basement:17.0.0@aar,androidx.appcompat:appcompat-resources:1.6.1@aar,androidx.constraintlayout:constraintlayout:2.0.1@aar,androidx.appcompat:appcompat:1.6.1@aar,androidx.viewpager2:viewpager2:1.0.0@aar,androidx.fragment:fragment:1.3.6@aar,androidx.fragment:fragment:1.3.6@aar,androidx.activity:activity:1.8.0@aar,androidx.browser:browser:1.5.0@aar,androidx.media:media:1.7.0@aar,androidx.emoji2:emoji2-views-helper:1.2.0@aar,androidx.emoji2:emoji2:1.2.0@aar,androidx.drawerlayout:drawerlayout:1.1.1@aar,androidx.coordinatorlayout:coordinatorlayout:1.1.0@aar,androidx.dynamicanimation:dynamicanimation:1.0.0@aar,androidx.transition:transition:1.2.0@aar,androidx.vectordrawable:vectordrawable-animated:1.1.0@aar,androidx.vectordrawable:vectordrawable:1.1.0@aar,androidx.core:core-ktx:1.10.1@aar,androidx.viewpager:viewpager:1.0.0@aar,androidx.legacy:legacy-support-core-utils:1.0.0@aar,androidx.loader:loader:1.0.0@aar,androidx.recyclerview:recyclerview:1.1.0@aar,androidx.customview:customview:1.1.0@aar,androidx.core:core:1.10.1@aar,androidx.core:core:1.10.1@aar,androidx.savedstate:savedstate:1.2.1@aar,androidx.lifecycle:lifecycle-service:2.6.1@aar,androidx.lifecycle:lifecycle-reactivestreams:2.6.1@aar,androidx.lifecycle:lifecycle-process:2.6.1@aar,androidx.lifecycle:lifecycle-livedata:2.6.1@aar,androidx.lifecycle:lifecycle-livedata:2.6.1@aar,androidx.lifecycle:lifecycle-livedata-core:2.6.1@aar,androidx.lifecycle:lifecycle-common-java8:2.6.1@jar,androidx.lifecycle:lifecycle-common:2.6.1@jar,androidx.lifecycle:lifecycle-viewmodel:2.6.1@aar,androidx.lifecycle:lifecycle-viewmodel:2.6.1@aar,androidx.lifecycle:lifecycle-runtime:2.6.1@aar,androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1@aar,org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.4@jar,org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4@jar,org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22@jar,io.flutter:armeabi_v7a_release:1.0.0-b20183e04096094bcc37d9cde2a4b96f5cc684cf@jar,io.flutter:arm64_v8a_release:1.0.0-b20183e04096094bcc37d9cde2a4b96f5cc684cf@jar,io.flutter:x86_64_release:1.0.0-b20183e04096094bcc37d9cde2a4b96f5cc684cf@jar,com.google.guava:guava:32.1.3-android@jar,androidx.security:security-crypto:1.1.0-alpha06@aar,androidx.profileinstaller:profileinstaller:1.3.0@aar,androidx.startup:startup-runtime:1.1.1@aar,androidx.tracing:tracing:1.0.0@aar,androidx.localbroadcastmanager:localbroadcastmanager:1.1.0@aar,androidx.localbroadcastmanager:localbroadcastmanager:1.1.0@aar,androidx.sqlite:sqlite-framework:2.3.0@aar,androidx.sqlite:sqlite:2.3.0@aar,androidx.interpolator:interpolator:1.0.0@aar,androidx.versionedparcelable:versionedparcelable:1.1.1@aar,androidx.collection:collection:1.1.0@jar,androidx.cursoradapter:cursoradapter:1.0.0@aar,androidx.resourceinspection:resourceinspection-annotation:1.0.1@jar,androidx.cardview:cardview:1.0.0@aar,androidx.arch.core:core-runtime:2.2.0@aar,androidx.arch.core:core-common:2.2.0@jar,androidx.concurrent:concurrent-futures:1.1.0@jar,androidx.documentfile:documentfile:1.0.0@aar,androidx.print:print:1.0.0@aar,com.google.crypto.tink:tink-android:1.8.0@jar,com.google.code.gson:gson:2.10.1@jar,org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22@jar,at.favre.lib:bcrypt:0.9.0@jar,androidx.annotation:annotation-experimental:1.3.0@aar,androidx.annotation:annotation-jvm:1.7.1@jar,org.jetbrains.kotlin:kotlin-stdlib:1.8.22@jar,me.leolin:ShortcutBadger:1.1.22@aar,com.google.guava:failureaccess:1.0.1@jar,com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava@jar,com.google.code.findbugs:jsr305:3.0.2@jar,org.checkerframework:checker-qual:3.37.0@jar,com.google.errorprone:error_prone_annotations:2.21.1@jar,at.favre.lib:bytes:1.3.0@jar,org.jetbrains.kotlin:kotlin-stdlib-common:1.8.22@jar,org.reactivestreams:reactive-streams:1.0.0@jar,org.jetbrains:annotations:13.0@jar,androidx.constraintlayout:constraintlayout-solver:2.0.1@jar">
+      roots="__local_aars__:/Users/telmomm/Desktop/tayma_app/build/app/intermediates/flutter/release/libs.jar:unspecified@jar,/Users/telmomm/Desktop/tayma_app/android@@:permission_handler_android::release,/Users/telmomm/Desktop/tayma_app/android@@:geolocator_android::release,/Users/telmomm/Desktop/tayma_app/android@@:sensors::release,/Users/telmomm/Desktop/tayma_app/android@@:awesome_notifications::release,/Users/telmomm/Desktop/tayma_app/android@@:flutter_local_notifications::release,/Users/telmomm/Desktop/tayma_app/android@@:flutter_bcrypt::release,/Users/telmomm/Desktop/tayma_app/android@@:url_launcher_android::release,/Users/telmomm/Desktop/tayma_app/android@@:path_provider_android::release,/Users/telmomm/Desktop/tayma_app/android@@:flutter_secure_storage::release,me.carda:AndroidAwnCore:0.9.3@aar,com.google.android.material:material:1.11.0@aar,androidx.room:room-runtime:2.5.0@aar,androidx.room:room-common:2.5.0@jar,io.flutter:flutter_embedding_release:1.0.0-b20183e04096094bcc37d9cde2a4b96f5cc684cf@jar,androidx.window:window-java:1.0.0-beta04@aar,androidx.window:window:1.0.0-beta04@aar,com.google.android.gms:play-services-location:17.0.0@aar,com.google.android.gms:play-services-base:17.0.0@aar,com.google.android.gms:play-services-places-placereport:17.0.0@aar,com.google.android.gms:play-services-tasks:17.0.0@aar,com.google.android.gms:play-services-basement:17.0.0@aar,androidx.appcompat:appcompat-resources:1.6.1@aar,androidx.constraintlayout:constraintlayout:2.0.1@aar,androidx.appcompat:appcompat:1.6.1@aar,androidx.viewpager2:viewpager2:1.0.0@aar,androidx.fragment:fragment:1.3.6@aar,androidx.fragment:fragment:1.3.6@aar,androidx.activity:activity:1.8.0@aar,androidx.browser:browser:1.5.0@aar,androidx.media:media:1.7.0@aar,androidx.emoji2:emoji2-views-helper:1.2.0@aar,androidx.emoji2:emoji2:1.2.0@aar,androidx.drawerlayout:drawerlayout:1.1.1@aar,androidx.coordinatorlayout:coordinatorlayout:1.1.0@aar,androidx.dynamicanimation:dynamicanimation:1.0.0@aar,androidx.transition:transition:1.2.0@aar,androidx.vectordrawable:vectordrawable-animated:1.1.0@aar,androidx.vectordrawable:vectordrawable:1.1.0@aar,androidx.core:core-ktx:1.10.1@aar,androidx.viewpager:viewpager:1.0.0@aar,androidx.legacy:legacy-support-core-utils:1.0.0@aar,androidx.loader:loader:1.0.0@aar,androidx.recyclerview:recyclerview:1.1.0@aar,androidx.customview:customview:1.1.0@aar,androidx.core:core:1.10.1@aar,androidx.core:core:1.10.1@aar,androidx.savedstate:savedstate:1.2.1@aar,androidx.lifecycle:lifecycle-service:2.6.1@aar,androidx.lifecycle:lifecycle-reactivestreams:2.6.1@aar,androidx.lifecycle:lifecycle-process:2.6.1@aar,androidx.lifecycle:lifecycle-livedata:2.6.1@aar,androidx.lifecycle:lifecycle-livedata:2.6.1@aar,androidx.lifecycle:lifecycle-livedata-core:2.6.1@aar,androidx.lifecycle:lifecycle-common-java8:2.6.1@jar,androidx.lifecycle:lifecycle-common:2.6.1@jar,androidx.lifecycle:lifecycle-viewmodel:2.6.1@aar,androidx.lifecycle:lifecycle-viewmodel:2.6.1@aar,androidx.lifecycle:lifecycle-runtime:2.6.1@aar,androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1@aar,org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.4@jar,org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4@jar,org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22@jar,org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22@jar,io.flutter:armeabi_v7a_release:1.0.0-b20183e04096094bcc37d9cde2a4b96f5cc684cf@jar,io.flutter:arm64_v8a_release:1.0.0-b20183e04096094bcc37d9cde2a4b96f5cc684cf@jar,io.flutter:x86_64_release:1.0.0-b20183e04096094bcc37d9cde2a4b96f5cc684cf@jar,com.google.guava:guava:32.1.3-android@jar,androidx.security:security-crypto:1.1.0-alpha06@aar,com.google.crypto.tink:tink-android:1.8.0@jar,com.google.code.gson:gson:2.10.1@jar,at.favre.lib:bcrypt:0.9.0@jar,androidx.profileinstaller:profileinstaller:1.3.0@aar,androidx.startup:startup-runtime:1.1.1@aar,androidx.tracing:tracing:1.0.0@aar,androidx.localbroadcastmanager:localbroadcastmanager:1.1.0@aar,androidx.localbroadcastmanager:localbroadcastmanager:1.1.0@aar,androidx.sqlite:sqlite-framework:2.3.0@aar,androidx.sqlite:sqlite:2.3.0@aar,androidx.interpolator:interpolator:1.0.0@aar,androidx.versionedparcelable:versionedparcelable:1.1.1@aar,androidx.collection:collection:1.1.0@jar,androidx.cursoradapter:cursoradapter:1.0.0@aar,androidx.resourceinspection:resourceinspection-annotation:1.0.1@jar,androidx.cardview:cardview:1.0.0@aar,androidx.arch.core:core-runtime:2.2.0@aar,androidx.arch.core:core-common:2.2.0@jar,androidx.concurrent:concurrent-futures:1.1.0@jar,androidx.documentfile:documentfile:1.0.0@aar,androidx.print:print:1.0.0@aar,androidx.annotation:annotation-experimental:1.3.0@aar,androidx.annotation:annotation-jvm:1.7.1@jar,org.jetbrains.kotlin:kotlin-stdlib:1.8.22@jar,me.leolin:ShortcutBadger:1.1.22@aar,com.google.guava:failureaccess:1.0.1@jar,com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava@jar,com.google.code.findbugs:jsr305:3.0.2@jar,org.checkerframework:checker-qual:3.37.0@jar,com.google.errorprone:error_prone_annotations:2.21.1@jar,at.favre.lib:bytes:1.3.0@jar,org.jetbrains.kotlin:kotlin-stdlib-common:1.8.22@jar,org.jetbrains:annotations:13.0@jar,org.reactivestreams:reactive-streams:1.0.0@jar,androidx.constraintlayout:constraintlayout-solver:2.0.1@jar">
     <dependency
         name="__local_aars__:/Users/telmomm/Desktop/tayma_app/build/app/intermediates/flutter/release/libs.jar:unspecified@jar"
         simpleName="__local_aars__:/Users/telmomm/Desktop/tayma_app/build/app/intermediates/flutter/release/libs.jar"/>
+    <dependency
+        name="/Users/telmomm/Desktop/tayma_app/android@@:permission_handler_android::release"
+        simpleName="com.baseflow.permissionhandler:permission_handler_android"/>
     <dependency
         name="/Users/telmomm/Desktop/tayma_app/android@@:geolocator_android::release"
         simpleName="com.baseflow.geolocator:geolocator_android"/>
@@ -151,9 +154,6 @@
     <dependency
         name="/Users/telmomm/Desktop/tayma_app/android@@:awesome_notifications::release"
         simpleName="me.carda.awesome_notifications:awesome_notifications"/>
-    <dependency
-        name="/Users/telmomm/Desktop/tayma_app/android@@:location_permissions::release"
-        simpleName="com.baseflow.location_permissions:location_permissions"/>
     <dependency
         name="/Users/telmomm/Desktop/tayma_app/android@@:flutter_local_notifications::release"
         simpleName="com.dexterous.flutterlocalnotifications:flutter_local_notifications"/>
@@ -317,6 +317,9 @@
         name="org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22@jar"
         simpleName="org.jetbrains.kotlin:kotlin-stdlib-jdk8"/>
     <dependency
+        name="org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22@jar"
+        simpleName="org.jetbrains.kotlin:kotlin-stdlib-jdk7"/>
+    <dependency
         name="io.flutter:armeabi_v7a_release:1.0.0-b20183e04096094bcc37d9cde2a4b96f5cc684cf@jar"
         simpleName="io.flutter:armeabi_v7a_release"/>
     <dependency
@@ -331,6 +334,15 @@
     <dependency
         name="androidx.security:security-crypto:1.1.0-alpha06@aar"
         simpleName="androidx.security:security-crypto"/>
+    <dependency
+        name="com.google.crypto.tink:tink-android:1.8.0@jar"
+        simpleName="com.google.crypto.tink:tink-android"/>
+    <dependency
+        name="com.google.code.gson:gson:2.10.1@jar"
+        simpleName="com.google.code.gson:gson"/>
+    <dependency
+        name="at.favre.lib:bcrypt:0.9.0@jar"
+        simpleName="at.favre.lib:bcrypt"/>
     <dependency
         name="androidx.profileinstaller:profileinstaller:1.3.0@aar"
         simpleName="androidx.profileinstaller:profileinstaller"/>
@@ -383,18 +395,6 @@
         name="androidx.print:print:1.0.0@aar"
         simpleName="androidx.print:print"/>
     <dependency
-        name="com.google.crypto.tink:tink-android:1.8.0@jar"
-        simpleName="com.google.crypto.tink:tink-android"/>
-    <dependency
-        name="com.google.code.gson:gson:2.10.1@jar"
-        simpleName="com.google.code.gson:gson"/>
-    <dependency
-        name="org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22@jar"
-        simpleName="org.jetbrains.kotlin:kotlin-stdlib-jdk7"/>
-    <dependency
-        name="at.favre.lib:bcrypt:0.9.0@jar"
-        simpleName="at.favre.lib:bcrypt"/>
-    <dependency
         name="androidx.annotation:annotation-experimental:1.3.0@aar"
         simpleName="androidx.annotation:annotation-experimental"/>
     <dependency
@@ -428,11 +428,11 @@
         name="org.jetbrains.kotlin:kotlin-stdlib-common:1.8.22@jar"
         simpleName="org.jetbrains.kotlin:kotlin-stdlib-common"/>
     <dependency
-        name="org.reactivestreams:reactive-streams:1.0.0@jar"
-        simpleName="org.reactivestreams:reactive-streams"/>
-    <dependency
         name="org.jetbrains:annotations:13.0@jar"
         simpleName="org.jetbrains:annotations"/>
+    <dependency
+        name="org.reactivestreams:reactive-streams:1.0.0@jar"
+        simpleName="org.reactivestreams:reactive-streams"/>
     <dependency
         name="androidx.constraintlayout:constraintlayout-solver:2.0.1@jar"
         simpleName="androidx.constraintlayout:constraintlayout-solver"/>

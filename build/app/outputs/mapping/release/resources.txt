@@ -17,6 +17,7 @@ GeneratedPluginsRegister
 java.lang.CharSequence
 $
 DIAGNOSTIC_CURRENT_PROFILE_DOES_NOT_E...
+PermissionHandler.AppSettingsManager
 click
 0
 left
@@ -98,6 +99,7 @@ COMPLETING_WAITING_CHILDREN
 HandlerLeak
 provider
 NOTIFICATION_THREAD_EXCEPTION
+android.permission.WRITE_CONTACTS
 com.miui.miuihome
 android.os.Build
 ticker
@@ -191,6 +193,7 @@ StreamHandlerImpl
 android.location.PROVIDERS_CHANGED
 direction
 android.intent.action.SEARCH
+android.permission.WRITE_CALL_LOG
 API_NOT_CONNECTED
 newConfig
 android.intent.action.MAIN
@@ -199,6 +202,7 @@ yMMMM
 activities
 setValue
 UNKNOWN
+android.permission.CAMERA
 RestrictedApi
 android:visibility:parent
 endColor
@@ -230,8 +234,10 @@ LEGACY
 android.support.v13.view.inputmethod....
 GRID_SELECTOR_KEY
 com.it_nomads.fluttersecurestorage.wo...
+android.permission.BODY_SENSORS_BACKG...
 Motion
 NO_ACTIVITY
+android.permission.READ_MEDIA_IMAGES
 forbidden
 isNotificationAllowed
 Geolocator
@@ -326,7 +332,9 @@ MissingSuperCall
 unknown
 android.widget.SeekBar
 android.intent.action.RUN
+android.permission.ACCESS_NOTIFICATIO...
 low
+android.permission.REQUEST_IGNORE_BAT...
 KeyEventChannel
 android.messagingStyleUser
 producerIndex
@@ -362,6 +370,7 @@ is_mocked
 getMap
 WrongConstant
 androidx.core.view.inputmethod.InputC...
+android.permission.ACTIVITY_RECOGNITION
 speed_accuracy
 MATCH_CONSTRAINT
 getUri
@@ -423,6 +432,7 @@ defaultDisplay
 Workout
 common_google_play_services_restricte...
 THU
+android.permission.SEND_SMS
 clearFocus
 LOCALE
 InlinedApi
@@ -447,6 +457,7 @@ info
 DORMANT
 HYBRID_ONLY
 BitmapFilePath
+android.permission.READ_MEDIA_AUDIO
 android.support.v4.media.session.SESS...
 TextInputType.name
 month
@@ -485,6 +496,7 @@ TextEditingDelta
 DEFAULT
 android.support.v4.media.session.acti...
 strokeMiterLimit
+android.permission.WRITE_CALENDAR
 android.app.MiuiNotification
 splitInfoList
 android.media.metadata.USER_RATING
@@ -541,6 +553,7 @@ keysetInfo_
 RESUMED
 usb
 USAGE_ALARM
+android.permission.READ_CALENDAR
 FlutterSecureSAlgorithmKey
 main
 mDrawableCache
@@ -797,6 +810,7 @@ com.google.crypto.tink.shaded.protobu...
 DEC
 opaque
 Service
+android.hardware.telephony
 observeForever
 android.largeIcon.big
 AccessibilityBridge
@@ -896,6 +910,7 @@ decorate
 setExclusiveCheckable
 RESTRICTED_PROFILE
 indeterminate
+requestPermissions
 com.sonyericsson.home.action.UPDATE_B...
 ACTION_CONTEXT_CLICK
 android.support.customtabs.extra.MENU...
@@ -918,6 +933,7 @@ MAR
 foregroundServiceTypes
 MAY
 IS_LINK
+android.permission.BIND_CALL_REDIRECT...
 cell
 CALENDAR_CONSTRAINTS_KEY
 URI
@@ -938,6 +954,7 @@ android.media.metadata.RATING
 TextInputType.multiline
 com.htc.launcher.extra.COMPONENT
 getChildId
+android.permission.RECEIVE_MMS
 FIXED64
 PRIVATE
 LoaderManager
@@ -964,6 +981,7 @@ nfc
 newInstance
 MetadataValueReader
 onResume
+android.permission.MANAGE_EXTERNAL_ST...
 Secret
 cn.google
 type.googleapis.com/google.crypto.tin...
@@ -977,6 +995,7 @@ handleLifecycleEvent
 android.media.metadata.BT_FOLDER_TYPE
 FloatingActionButton
 android.answerColor
+android.permission.RECEIVE_WAP_PUSH
 arrayBaseOffset
 OR
 manifest
@@ -990,6 +1009,7 @@ ChannelGroupManager
 skippingToQueueItem
 suggest_intent_extra_data
 getAppBounds
+PermissionHandler.PermissionManager
 ringtones
 getNextDate
 suggest_flags
@@ -1002,6 +1022,7 @@ android.intent.action.PROVIDER_CHANGED
 newValue
 creditCardExpirationMonth
 cache
+android.permission.BLUETOOTH_SCAN
 languageCode
 arguments.invalid.channel.playSound
 com.google.crypto.tink.shaded.protobu...
@@ -1028,6 +1049,7 @@ newLayoutInfo
 getActiveNotificationMessagingStyleError
 notificationResponseType
 :launch
+android.permission.READ_CALL_LOG
 streetAddress
 ACTION_ARGUMENT_EXTEND_SELECTION_BOOLEAN
 grab
@@ -1052,6 +1074,7 @@ ic_launcher
 includeSubdomains
 LOCATION_SERVICES_DISABLED
 criticalAlerts
+android.intent.action.CALL
 parentMetrics
 com.quaap.launchtime
 UINT64_LIST
@@ -1136,6 +1159,7 @@ Low
 showsUserInterface
 PUBLIC
 ScheduledNotificationReceiver
+android.settings.MANAGE_UNKNOWN_APP_S...
 UrlLauncherPlugin
 group_key
 flags
@@ -1177,6 +1201,7 @@ ForegroundService
 channelGroupName
 deltaEnd
 containsKey
+android.permission.REQUEST_INSTALL_PA...
 _consensus
 android.support.v13.view.inputmethod....
 android.support.v4.media.session.acti...
@@ -1200,6 +1225,7 @@ pcampaignid
 arguments.required
 setPosture
 ensureImeVisible
+android.permission.ANSWER_PHONE_CALLS
 splitInfo.primaryActivityStack
 android.intent.action.PROCESS_TEXT
 TEXTURE_WITH_VIRTUAL_FALLBACK
@@ -1209,6 +1235,7 @@ NETWORK_ERROR
 plugins.it_nomads.com/flutter_secure_...
 denied
 user
+android.permission.READ_PHONE_STATE
 extent
 getModule
 gradientRadius
@@ -1250,6 +1277,7 @@ ordering
 SystemSoundType.click
 search
 connectedDevice
+android.permission.READ_MEDIA_VIDEO
 com.google.android.gms.location.inter...
 androidx.view.accessibility.Accessibi...
 secondaryActivityIntent
@@ -1402,7 +1430,6 @@ badgeCount
 ON_OFF_SWITCH_LABELS
 ClickableViewAccessibility
 key_
-com.baseflow.flutter/location_permiss...
 dekTemplate_
 android.media.metadata.DISPLAY_ICON_URI
 show_password
@@ -1428,10 +1455,10 @@ android.support.v13.view.inputmethod....
 createAsync
 android.media.metadata.DURATION
 MissedCall
+sp_permission_handler_permission_was_...
 Daily
 freeze
 EMAIL_ADDRESS
-ERROR_MISSING_CONTEXT
 java.util.Map
 TextInputPlugin
 /data/misc/profiles/cur/0
@@ -1571,10 +1598,12 @@ exact
 DIMENSION_TYPE
 overridingDecorator
 dexterous.com/flutter/local_notificat...
+android.permission.BODY_SENSORS
 flutter/spellcheck
 IS_TOGGLED
 GooglePlayServicesUtil
 promo
+com.android.voicemail.permission.ADD_...
 get
 dark
 telecom
@@ -1615,6 +1644,7 @@ DrawableCompat
 kotlin.collections.Map.Entry
 androidx.browser.customtabs.extra.COL...
 line
+android.permission.SYSTEM_ALERT_WINDOW
 failing_client_id
 scale
 createNewNotification
@@ -1638,6 +1668,7 @@ trimPathOffset
 emit
 clazz
 SCROLL_DOWN
+android.settings.MANAGE_APP_ALL_FILES...
 sharedPreferences.set
 DISMISS
 USAGE_NOTIFICATION_COMMUNICATION_DELAYED
@@ -1722,8 +1753,8 @@ _invoked
 startForeground
 setAsGroupSummary
 medium
-locale
 NotificationModel
+locale
 android.declineIntent
 tagSize_
 RESULT_DELETE_SKIP_FILE_SUCCESS
@@ -1735,6 +1766,7 @@ requestRelaunchActivity
 _delayed
 FIXED32_LIST_PACKED
 jobscheduler
+android.permission.RECEIVE_SMS
 usesChronometer
 flutterPluginBinding
 EmbeddingBackend
@@ -1837,11 +1869,13 @@ basic
 kotlin.Throwable
 setAppBadgeCount
 parkedWorkersStack
+android.permission.GET_ACCOUNTS
 RINGTONES
 cause
 DRAGGING
 kotlin.Annotation
 com.google.android.gms.signin.interna...
+android.permission.NEARBY_WIFI_DEVICES
 LANDSCAPE_LEFT
 arguments.invalid.channel.key
 elevation
@@ -1949,6 +1983,7 @@ android.text.DynamicLayout$ChangeWatcher
 ERROR_WHILE_ACQUIRING_POSITION
 boolean_prefs
 unexpectedError.fcm.
+PermissionHandler.ServiceManager
 SHOW
 rotation
 INTERNAL_ERROR
@@ -2135,6 +2170,7 @@ RequestingExactAlarmsPermission
 transition
 hintText
 LICENSE_CHECK_FAILED
+android.permission.BLUETOOTH
 androidx.core.view.inputmethod.InputC...
 VIVO
 android.media.metadata.DATE
@@ -2147,14 +2183,17 @@ MediaControllerCompat
 InputConnectionCompat
 cancelAll
 count
+android.permission.RECORD_AUDIO
 dev.flutter.pigeon.PathProviderApi.ge...
 DISABLED
 exact_alarms_not_permitted
 entry_
 navigation_bar_height
 java.lang.annotation.Annotation
+android.permission.BLUETOOTH_CONNECT
 FlutterImageView
 font_weight
+android.permission.ACCESS_MEDIA_LOCATION
 fullScreenIntent
 TERMINATED
 flutter/navigation
@@ -2257,6 +2296,7 @@ best
 statusBarIconBrightness
 delete
 dcim
+android.permission.BLUETOOTH_ADVERTISE
 asyncTraceEnd
 transform
 hour
@@ -2276,6 +2316,7 @@ Completed
 callback
 notificationLayout
 mOnKeyListener
+android.permission.READ_EXTERNAL_STORAGE
 ACTION_PASTE
 android.graphics.FontFamily
 SINT32_LIST
@@ -2377,6 +2418,7 @@ superclass
 delimiter
 permissions
 .FlutterSecureStoragePluginKey
+tel:123123
 getActiveNotificationMessagingStyle
 primaryActivityStack.activities
 hints
@@ -2502,9 +2544,11 @@ kotlin.jvm.functions.
 WindowInfoTrackerImpl.kt
 content://com.huawei.android.launcher...
 insufficientPermissions.channel.
+android.permission.READ_CONTACTS
 activityMissing
 kotlin.internal.JRE7PlatformImplement...
 android.media.metadata.DOWNLOAD_STATUS
+android.settings.action.MANAGE_OVERLA...
 PORTRAIT_DOWN
 android.verificationIconCompat
 startForegroundService
@@ -2569,6 +2613,7 @@ scheduledDateTime
 com.anddoes.launcher.COUNTER_CHANGED
 ACTION_SCROLL_BACKWARD
 PERMISSION_REQUEST_IN_PROGRESS
+android.permission.WRITE_EXTERNAL_STO...
 androidx.core.view.inputmethod.InputC...
 TooltipPopup
 android.messages.historic
@@ -2665,6 +2710,7 @@ sensor
 kotlin.Int
 collect
 OP_POST_NOTIFICATION
+android.permission.CALL_PHONE
 notificationDismissed
 IS_IMAGE
 COMPLETING_ALREADY
@@ -2692,10 +2738,12 @@ gcore_
 android:user_visible_hint
 flutter/lifecycle
 weekOfYear
+android.permission.READ_PHONE_NUMBERS
 type.googleapis.com/google.crypto.tin...
 content://com.teslacoilsw.notifier/un...
 htmlFormatBigText
 SystemChrome.setEnabledSystemUIMode
+permissions_handler
 GoogleApiHandler
 INCREASE
 android.support.v4.media.session.acti...
@@ -2789,11 +2837,11 @@ textScaleFactor
 HMACSHA1
 Tiramisu
 android:view_state
+flutter.baseflow.com/permissions/methods
 Dispatchers.Main
 android.settings.APP_NOTIFICATION_SET...
 FlutterSurfaceView
 Cancelled
-com.baseflow.flutter/location_permiss...
 notify_manager
 RatingBar
 getEmptyRegistry
@@ -2959,6 +3007,7 @@ colorBlue
 throwableMethods
 RawResource
 StateSet
+android.permission.USE_SIP
 completion
 ToggleButton
 set
@@ -3142,7 +3191,6 @@ suggest_icon_1
 APR
 suggest_icon_2
 PathProviderPlugin
-location_permissions
 IS_SELECTED
 errorWhileAcquiringPosition
 .Companion
@@ -3220,7 +3268,6 @@ TextInputClient.onConnectionClosed
 removeObserver
 AES128_GCM_SIV_RAW
 FLOAT_LIST
-android.location.MODE_CHANGED
 flutter/mousecursor
 TextAppearance
 AES128_GCM_RAW
@@ -3266,6 +3313,7 @@ htmlFormatLines
 SHARED_PREFERENCES_NOT_AVAILABLE
 notifications
 ACTION_FOCUS
+android.permission.READ_SMS
 android.support.action.semanticAction
 java.lang.Double
 initialization.awesomeNotifications.e...
@@ -3287,6 +3335,7 @@ phoneNumberDevice
 A11yActionCompat
 arguments.invalid.bitmap.reference
 elements
+android.settings.REQUEST_IGNORE_BATTE...
 strokeAlpha
 URI_MASKABLE
 /raw/
@@ -3345,7 +3394,6 @@ com.google.android.wearable.app
 FLOAT_LIST_PACKED
 rewinding
 category
-ERROR_ALREADY_REQUESTING_PERMISSIONS
 BackgroundColor
 Marking id:cancel_action:2131230818 used because it matches string pool constant cancel
 Marking id:cancel_button:2131230819 used because it matches string pool constant cancel
